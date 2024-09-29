@@ -4,9 +4,9 @@
 ## iOS Projects
 
 * App Store
- * [App Store](https://apple.co/3SGTvDt)
+  * [App Store](https://apple.co/3SGTvDt)
 
- * [Medium](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw49-publish-your-own-app-1c028d8cfcc6)
+  * [Medium](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw49-publish-your-own-app-1c028d8cfcc6)
 
 ## Side Project:
 * Drink Order App
