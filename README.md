@@ -1,6 +1,8 @@
 # dwhao84.github.io
 > Hao Da-Wei Resume
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dwhao84&layout=donut)](https://github.com/dwhao84/github-readme-stats)
+
 ## iOS Projects
 
 * App Store
