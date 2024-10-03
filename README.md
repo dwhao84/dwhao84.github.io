@@ -1,6 +1,8 @@
 # dwhao84.github.io
 > Hao Da-Wei Resume
 
+![dwhao84's GitHub stats](https://github-readme-stats.vercel.app/api?username=dwhao84&show_icons=true&theme=radical)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dwhao84&layout=donut)](https://github.com/dwhao84/github-readme-stats)
 
 ## iOS Projects
