@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +10,6 @@
             margin: 0;
             padding: 0;
         }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
@@ -21,25 +19,21 @@
             padding: 20px;
             background-color: #f5f5f7;
         }
-
         header {
             text-align: center;
             margin-bottom: 40px;
         }
-
         h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
             color: #1d1d1f;
         }
-
         h2 {
             font-size: 2em;
             margin: 40px 0 20px;
             color: #1d1d1f;
             text-align: center;
         }
-
         .github-stats {
             display: flex;
             justify-content: center;
@@ -47,18 +41,15 @@
             margin-bottom: 40px;
             flex-wrap: wrap;
         }
-
         .github-stats img {
             max-width: 100%;
             height: auto;
         }
-
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 30px;
         }
-
         .project-card {
             background: white;
             border-radius: 10px;
@@ -66,34 +57,28 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             transition: transform 0.3s ease;
         }
-
         .project-card:hover {
             transform: translateY(-5px);
         }
-
         .project-image {
             width: 100%;
             height: 200px;
             object-fit: cover;
         }
-
         .project-content {
             padding: 20px;
         }
-
         .project-card h3 {
             color: #1d1d1f;
             margin-bottom: 15px;
             font-size: 1.5em;
         }
-
         .project-links {
             display: flex;
             gap: 10px;
             margin-top: 15px;
             flex-wrap: wrap;
         }
-
         .project-links a {
             display: inline-flex;
             align-items: center;
