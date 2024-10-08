@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -146,25 +145,19 @@
         }
 
         .project-links a.github:hover {
-        background: #8a6bba;
+            background: #8a6bba;
         }
 
         .project-links a.medium {
-            background: #000000;
+            background: #1e1e1e; /* 修改为你想要的颜色 */
         }
+
         .project-links a.medium:hover {
-            background: #292929;
+            background: #333333; /* 修改hover状态的颜色 */
         }
-        .project-links a.app-store {
-            background: #0071e3;
-        }
-        .project-links a.app-store:hover {
-            background: #0077ed;
-        }
-        .project-links i {
-            margin-right: 5px;
-        }
+
     </style>
+
 </head>
 <body>
     <header>
@@ -184,7 +177,7 @@
     </div>
 
     <h2>iOS Projects</h2>
-    
+
     <div class="projects">
         <div class="project-card">
             <img src="/api/placeholder/400/200" alt="Drink Order App Screenshot" class="project-image">
@@ -246,5 +239,6 @@
             </div>
         </div>
     </div>
+
 </body>
 </html>
