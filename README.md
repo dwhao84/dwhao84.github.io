@@ -29,6 +29,12 @@
             margin-bottom: 10px;
             color: #1d1d1f;
         }
+        h2 {
+            font-size: 2em;
+            margin: 40px 0 20px;
+            color: #1d1d1f;
+            text-align: center;
+        }
         .github-stats {
             display: flex;
             justify-content: center;
@@ -64,19 +70,34 @@
             display: flex;
             gap: 10px;
             margin-top: 15px;
+            flex-wrap: wrap;
         }
         .project-links a {
             display: inline-flex;
             align-items: center;
             padding: 8px 12px;
-            background: #0071e3;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             font-size: 0.9em;
             transition: background 0.3s ease;
         }
-        .project-links a:hover {
+        .project-links a.github {
+            background: #6e5494;
+        }
+        .project-links a.github:hover {
+            background: #8a6bba;
+        }
+        .project-links a.medium {
+            background: #000000;
+        }
+        .project-links a.medium:hover {
+            background: #292929;
+        }
+        .project-links a.app-store {
+            background: #0071e3;
+        }
+        .project-links a.app-store:hover {
             background: #0077ed;
         }
         .project-links i {
@@ -95,13 +116,15 @@
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dwhao84&layout=donut" alt="Top Languages">
     </div>
 
+    <h2>iOS Projects</h2>
+    
     <div class="projects">
         <div class="project-card">
             <h3>Drink Order App</h3>
             <p>A custom drink ordering application showcasing UI design and order management.</p>
             <div class="project-links">
-                <a href="https://github.com/dwhao84/DrinkOrderApp"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-50-drink-order-app-1-get-6d4f7566c6f5"><i class="fab fa-medium"></i> Medium</a>
+                <a href="https://github.com/dwhao84/DrinkOrderApp" class="github"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-50-drink-order-app-1-get-6d4f7566c6f5" class="medium"><i class="fab fa-medium"></i> Medium</a>
             </div>
         </div>
 
@@ -109,9 +132,9 @@
             <h3>App Store Clone</h3>
             <p>Recreation of the App Store interface demonstrating UIKit proficiency.</p>
             <div class="project-links">
-                <a href="https://github.com/dwhao84/HW48-App-store"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-48-app-store-425538e1f98b"><i class="fab fa-medium"></i> Medium</a>
-                <a href="https://apple.co/3SGTvDt"><i class="fab fa-app-store-ios"></i> App Store</a>
+                <a href="https://github.com/dwhao84/HW48-App-store" class="github"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-48-app-store-425538e1f98b" class="medium"><i class="fab fa-medium"></i> Medium</a>
+                <a href="https://apple.co/3SGTvDt" class="app-store"><i class="fab fa-app-store-ios"></i> App Store</a>
             </div>
         </div>
 
@@ -119,8 +142,8 @@
             <h3>YouBike API Integration</h3>
             <p>Implementation of JSON decoding and Core Data with the YouBike API.</p>
             <div class="project-links">
-                <a href="https://github.com/dwhao84/HW-44-JSON-Decoder"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-47-串接you-bike-api-資料存到core-data-70fa9782e915"><i class="fab fa-medium"></i> Medium</a>
+                <a href="https://github.com/dwhao84/HW-44-JSON-Decoder" class="github"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-47-串接you-bike-api-資料存到core-data-70fa9782e915" class="medium"><i class="fab fa-medium"></i> Medium</a>
             </div>
         </div>
 
@@ -128,8 +151,8 @@
             <h3>Psychological Quiz App</h3>
             <p>Interactive quiz application built with UIKit and Storyboard.</p>
             <div class="project-links">
-                <a href="https://github.com/dwhao84/HW37_PsychologicalTest"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-37-psychologicaltest-心理測驗-with-storyboard-747b1de293f7"><i class="fab fa-medium"></i> Medium</a>
+                <a href="https://github.com/dwhao84/HW37_PsychologicalTest" class="github"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-37-psychologicaltest-心理測驗-with-storyboard-747b1de293f7" class="medium"><i class="fab fa-medium"></i> Medium</a>
             </div>
         </div>
 
@@ -137,8 +160,8 @@
             <h3>Multiple Choice Challenge</h3>
             <p>Educational app featuring multiple choice questions and scoring.</p>
             <div class="project-links">
-                <a href="https://github.com/dwhao84/HW36_MultipleChoiceChallenge"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw36-multiple-choice-選擇題-d55c2e9e6089"><i class="fab fa-medium"></i> Medium</a>
+                <a href="https://github.com/dwhao84/HW36_MultipleChoiceChallenge" class="github"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw36-multiple-choice-選擇題-d55c2e9e6089" class="medium"><i class="fab fa-medium"></i> Medium</a>
             </div>
         </div>
     </div>
