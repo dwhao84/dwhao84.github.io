@@ -152,10 +152,6 @@
         background: #8a6bba;
         }
 
-        .project-links a.github i {
-        margin-right: 8px; /* Space between the icon and the text */
-        }
-
         .project-links a.medium {
             background: #000000;
         }
