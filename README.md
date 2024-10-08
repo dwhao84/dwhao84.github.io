@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
         }
+        
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
@@ -34,6 +35,44 @@
             color: #1d1d1f;
             text-align: center;
         }
+
+
+        /* Download button styles */
+        .download-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .download-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 24px;
+            background-color: #34C759;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .download-button:hover {
+            background-color: #30B352;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .download-button i {
+            margin-right: 8px;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .download-button {
+            animation: pulse 2s infinite;
+        }
+
+
         .github-stats {
             display: flex;
             justify-content: center;
