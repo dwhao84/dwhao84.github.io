@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,8 +80,8 @@
             flex-wrap: wrap;
         }
         .github-stats img {
+            width: 50%;
             max-width: 100%;
-            height: auto;
         }
         .projects {
             display: grid;
@@ -150,6 +149,7 @@
             margin-right: 5px;
         }
     </style>
+
 </head>
 <body>
     <header>
