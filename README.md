@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -170,7 +170,65 @@
     <h2>iOS Projects</h2>
 
     <div class="projects">
-        <!-- Projects go here, ensure images have valid paths -->
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="Drink Order App Screenshot" class="project-image">
+            <div class="project-content">
+                <h3>Drink Order App</h3>
+                <p>A custom drink ordering application showcasing UI design and order management.</p>
+                <div class="project-links">
+                    <a href="https://github.com/dwhao84/DrinkOrderApp" class="github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-50-drink-order-app-1-get-6d4f7566c6f5" class="medium"><i class="fab fa-medium"></i> Medium</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="App Store Clone Screenshot" class="project-image">
+            <div class="project-content">
+                <h3>App Store Clone</h3>
+                <p>Recreation of the App Store interface demonstrating UIKit proficiency.</p>
+                <div class="project-links">
+                    <a href="https://github.com/dwhao84/HW48-App-store" class="github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-48-app-store-425538e1f98b" class="medium"><i class="fab fa-medium"></i> Medium</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="YouBike API Integration Screenshot" class="project-image">
+            <div class="project-content">
+                <h3>YouBike API Integration</h3>
+                <p>Implementation of JSON decoding and Core Data with the YouBike API.</p>
+                <div class="project-links">
+                    <a href="https://github.com/dwhao84/HW-44-JSON-Decoder" class="github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-47-串接you-bike-api-資料存到core-data-70fa9782e915" class="medium"><i class="fab fa-medium"></i> Medium</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="Psychological Quiz App Screenshot" class="project-image">
+            <div class="project-content">
+                <h3>Psychological Quiz App</h3>
+                <p>Interactive quiz application built with UIKit and Storyboard.</p>
+                <div class="project-links">
+                    <a href="https://github.com/dwhao84/HW37_PsychologicalTest" class="github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-37-psychologicaltest-心理測驗-with-storyboard-747b1de293f7" class="medium"><i class="fab fa-medium"></i> Medium</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="Multiple Choice Challenge Screenshot" class="project-image">
+            <div class="project-content">
+                <h3>Multiple Choice Challenge</h3>
+                <p>Educational app featuring multiple choice questions and scoring.</p>
+                <div class="project-links">
+                    <a href="https://github.com/dwhao84/HW36_MultipleChoiceChallenge" class="github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw36-multiple-choice-選擇題-d55c2e9e6089" class="medium"><i class="fab fa-medium"></i> Medium</a>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
