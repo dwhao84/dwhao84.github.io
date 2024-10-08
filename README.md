@@ -21,20 +21,24 @@
             padding: 20px;
             background-color: #f5f5f7;
         }
+
         header {
             text-align: center;
             margin-bottom: 40px;
         }
+
         h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
             color: #1d1d1f;
+            text-align: left; /* Aligns the text to the left */
         }
+
         h2 {
             font-size: 2em;
             margin: 40px 0 20px;
             color: #1d1d1f;
-            text-align: center;
+            text-align: left;
         }
 
         /* Download button styles */
@@ -153,7 +157,6 @@
 <body>
     <header>
         <h1>Da-Wei Hao</h1>
-        <p>iOS Developer</p>
         <div class="download-section">
             <a href="path/to/your/resume.pdf" class="download-button" download>
                 <i class="fas fa-file-download"></i>
@@ -230,6 +233,6 @@
             </div>
         </div>
     </div>
-    
+
 </body>
 </html>
