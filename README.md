@@ -167,11 +167,12 @@
 
     <div class="github-stats">
         <img src="https://github-readme-stats.vercel.app/api?username=dwhao84&show_icons=true&theme=radical" alt="GitHub stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dwhao84&layout=donut" alt="Top Languages">
+        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dwhao84&layout=compact&theme=radical" />
     </div>
 
     <h2>iOS Projects</h2>
 
+<!-- Drink Order App -->
     <div class="projects">
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="Drink Order App Screenshot" class="project-image">
@@ -185,6 +186,7 @@
             </div>
         </div>
 
+<!-- App Store App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="App Store Clone Screenshot" class="project-image">
             <div class="project-content">
@@ -197,6 +199,8 @@
             </div>
         </div>
 
+
+<!-- YouBike App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="YouBike API Integration Screenshot" class="project-image">
             <div class="project-content">
@@ -209,6 +213,7 @@
             </div>
         </div>
 
+<!-- Psychological Quiz App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="Psychological Quiz App Screenshot" class="project-image">
             <div class="project-content">
@@ -221,6 +226,8 @@
             </div>
         </div>
 
+
+<!-- Multiple Choice App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="Multiple Choice Challenge Screenshot" class="project-image">
             <div class="project-content">
