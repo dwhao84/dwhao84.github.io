@@ -79,10 +79,13 @@
             margin-bottom: 40px;
             flex-wrap: wrap;
         }
+
         .github-stats img {
-            width: 50%;
+            height: 200px; /* Set a fixed height for both images */
+            width: auto; /* Ensure they scale proportionally */
             max-width: 100%;
         }
+
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
