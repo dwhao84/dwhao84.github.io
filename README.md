@@ -185,7 +185,7 @@
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="App Store Clone Screenshot" class="project-image">
             <div class="project-content">
-                <h3>App Store Clone</h3>
+                <h3>App Store App</h3>
                 <p>Recreation of the App Store interface demonstrating UIKit proficiency.</p>
                 <div class="project-links">
                     <a href="https://github.com/dwhao84/HW48-App-store" class="github"><i class="fab fa-github"></i> GitHub</a>
@@ -197,7 +197,7 @@
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="YouBike API Integration Screenshot" class="project-image">
             <div class="project-content">
-                <h3>YouBike API Integration</h3>
+                <h3>YouBike App</h3>
                 <p>Implementation of JSON decoding and Core Data with the YouBike API.</p>
                 <div class="project-links">
                     <a href="https://github.com/dwhao84/HW-44-JSON-Decoder" class="github"><i class="fab fa-github"></i> GitHub</a>
@@ -221,7 +221,7 @@
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="Multiple Choice Challenge Screenshot" class="project-image">
             <div class="project-content">
-                <h3>Multiple Choice Challenge</h3>
+                <h3>Multiple Choice App</h3>
                 <p>Educational app featuring multiple choice questions and scoring.</p>
                 <div class="project-links">
                     <a href="https://github.com/dwhao84/HW36_MultipleChoiceChallenge" class="github"><i class="fab fa-github"></i> GitHub</a>
@@ -230,6 +230,6 @@
             </div>
         </div>
     </div>
-
+    
 </body>
 </html>
