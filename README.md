@@ -129,22 +129,33 @@
             flex-wrap: wrap;
         }
 
-        .project-links a {
-            display: inline-flex;
-            align-items: center;
-            padding: 8px 12px;
+        .project-links a.github {
+            display: inline-flex; /* This ensures the icon and text align properly */
+            align-items: center; /* Centers the icon vertically with the text */
+            background: #6e5494;
+            padding: 8px 12px; /* Adjust the padding to give some space around the button */
             color: white;
             text-decoration: none;
             border-radius: 5px;
             font-size: 0.9em;
             transition: background 0.3s ease;
         }
+
         .project-links a.github {
             background: #6e5494;
         }
         .project-links a.github:hover {
             background: #8a6bba;
         }
+
+        .project-links a.github:hover {
+        background: #8a6bba;
+        }
+
+        .project-links a.github i {
+        margin-right: 8px; /* Space between the icon and the text */
+        }
+
         .project-links a.medium {
             background: #000000;
         }
