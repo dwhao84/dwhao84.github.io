@@ -156,7 +156,7 @@
 </head>
 <body>
     <header>
-        <h1>Da-Wei Hao</h1>
+        <h1>Da-Wei Hao Portfolio</h1>
         <div class="download-section">
             <a href="path/to/your/resume.pdf" class="download-button" download>
                 <i class="fas fa-file-download"></i>
