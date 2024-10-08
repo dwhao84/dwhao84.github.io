@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,24 +21,21 @@
             padding: 20px;
             background-color: #f5f5f7;
         }
-
         header {
             text-align: center;
             margin-bottom: 40px;
         }
-
         h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
             color: #1d1d1f;
-            text-align: left; /* Aligns the text to the left */
+            text-align: left;
         }
-
         h2 {
             font-size: 2em;
             margin: 40px 0 20px;
             color: #1d1d1f;
-            text-align: left;
+            text-align: center;
         }
 
         /* Download button styles */
@@ -83,7 +81,6 @@
             flex-wrap: wrap;
         }
         .github-stats img {
-            width: 100%;
             max-width: 100%;
             height: auto;
         }
@@ -102,13 +99,11 @@
         .project-card:hover {
             transform: translateY(-5px);
         }
-
         .project-image {
             width: 100%;
             height: 200px;
             object-fit: cover;
         }
-
         .project-content {
             padding: 20px;
         }
@@ -155,17 +150,10 @@
             margin-right: 5px;
         }
     </style>
-
 </head>
 <body>
     <header>
         <h1>Da-Wei Hao Portfolio</h1>
-        <div class="download-section">
-            <a href="path/to/your/resume.pdf" class="download-button" download>
-                <i class="fas fa-file-download"></i>
-                Download Resume
-            </a>
-        </div>
     </header>
 
     <div class="github-stats">
@@ -175,9 +163,8 @@
 
     <h2>iOS Projects</h2>
 
-<!-- Drink Order App -->
-
     <div class="projects">
+        <!-- Drink Order App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="Drink Order App Screenshot" class="project-image">
             <div class="project-content">
@@ -190,8 +177,7 @@
             </div>
         </div>
 
-<!-- App Store App -->
-
+        <!-- App Store App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="App Store Clone Screenshot" class="project-image">
             <div class="project-content">
@@ -204,8 +190,7 @@
             </div>
         </div>
 
-<!-- YouBike App -->
-
+        <!-- YouBike App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="YouBike API Integration Screenshot" class="project-image">
             <div class="project-content">
@@ -218,8 +203,7 @@
             </div>
         </div>
 
-<!-- Psychological Quiz App -->
-
+        <!-- Psychological Quiz App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="Psychological Quiz App Screenshot" class="project-image">
             <div class="project-content">
@@ -232,8 +216,7 @@
             </div>
         </div>
 
-<!-- Multiple Choice App -->
-
+        <!-- Multiple Choice App -->
         <div class="project-card">
             <img src="https://via.placeholder.com/400x200" alt="Multiple Choice Challenge Screenshot" class="project-image">
             <div class="project-content">
@@ -245,6 +228,13 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="download-section">
+        <a href="path/to/your/resume.pdf" class="download-button" download>
+            <i class="fas fa-file-download"></i>
+            Download Resume
+        </a>
     </div>
 
 </body>
