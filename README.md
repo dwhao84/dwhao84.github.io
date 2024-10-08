@@ -144,9 +144,6 @@
         .project-links a.github {
             background: #6e5494;
         }
-        .project-links a.github:hover {
-            background: #8a6bba;
-        }
 
         .project-links a.github:hover {
         background: #8a6bba;
@@ -209,7 +206,6 @@
                 <div class="project-links">
                     <a href="https://github.com/dwhao84/HW48-App-store" class="github"><i class="fab fa-github"></i> GitHub</a>
                     <a href="https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-48-app-store-425538e1f98b" class="medium"><i class="fab fa-medium"></i> Medium</a>
-                    <a href="https://apple.co/3SGTvDt" class="app-store"><i class="fab fa-app-store-ios"></i> App Store</a>
                 </div>
             </div>
         </div>
