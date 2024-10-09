@@ -182,7 +182,7 @@
     <div class="projects">
         <!-- Drink Order App -->
         <div class="project-card">
-            <img src="https://via.placeholder.com/400x200" alt="Drink Order App Screenshot" class="project-image">
+            <img src="Kebuke_banner.png" alt="Drink Order App Screenshot" class="project-image">
             <div class="project-content">
                 <h3>Drink Order App</h3>
                 <p>A custom drink ordering application showcasing UI design and order management.</p>
@@ -208,7 +208,7 @@
 
         <!-- YouBike App -->
         <div class="project-card">
-            <img src="https://github.com/dwhao84/dwhao84.github.io/blob/83ad61433133e4b9cc6719a05c22597d7762ed72/Youbike_banner.jpg" alt="YouBike API Integration Screenshot" class="project-image">
+            <img src="Youbike_banner.jpg" alt="YouBike API Integration Screenshot" class="project-image">
             <div class="project-content">
                 <h3>YouBike App</h3>
                 <p>Implementation of JSON decoding and Core Data with the YouBike API.</p>
@@ -234,7 +234,7 @@
 
         <!-- Multiple Choice App -->
         <div class="project-card">
-            <img src="https://via.placeholder.com/400x200" alt="Multiple Choice Challenge Screenshot" class="project-image">
+            <img src="CleanShot 2024-10-09 at 21.54.07@2x.png" alt="Multiple Choice Challenge Screenshot" class="project-image">
             <div class="project-content">
                 <h3>Multiple Choice App</h3>
                 <p>Educational app featuring multiple choice questions and scoring.</p>
