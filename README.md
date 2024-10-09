@@ -195,7 +195,7 @@
 
         <!-- App Store App -->
         <div class="project-card">
-            <img src="https://github.com/dwhao84/dwhao84.github.io/blob/83ad61433133e4b9cc6719a05c22597d7762ed72/App_store.jpg" alt="App Store Clone Screenshot" class="project-image">
+            <img src="https://raw.githubusercontent.com/dwhao84/dwhao84.github.io/d2b137af2ff88e705ebc384766667f5effc5b01c/App_store.jpg" alt="App Store Clone Screenshot" class="project-image">
             <div class="project-content">
                 <h3>App Store App</h3>
                 <p>Recreation of the App Store interface demonstrating UIKit proficiency.</p>
@@ -205,6 +205,7 @@
                 </div>
             </div>
         </div>
+
 
         <!-- YouBike App -->
         <div class="project-card">
