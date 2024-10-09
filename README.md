@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,10 +23,11 @@
             background-color: #f5f5f7;
             display: flex;
             flex-direction: column;
+            min-height: 100vh; /* 新增此行 */
         }
 
         .main-container {
-            flex: 1 0 auto;
+            flex: 1; /* 修改此行 */
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -242,6 +242,7 @@
             }
         }
     </style>
+
 </head>
 <body>
     <div class="main-container">
@@ -350,5 +351,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
