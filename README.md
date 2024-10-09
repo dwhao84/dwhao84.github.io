@@ -25,12 +25,15 @@
             color: #333;
             background-color: #f5f5f7;
             overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
         }
 
         .content-wrapper {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            flex: 1 0 auto;
         }
 
         header {
