@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -184,7 +183,6 @@
 
         /* Footer Styles */
         footer {
-            flex-shrink: 0;
             background-color: #000;
             color: #fff;
             padding: 30px 0;
@@ -207,6 +205,7 @@
             display: flex;
             justify-content: center;
             gap: 20px;
+            margin-top: 20px;
         }
 
         .social-icons a {
@@ -219,6 +218,7 @@
             color: #1DA1F2; /* Twitter blue color */
         }
     </style>
+
 </head>
 <body>
     <div class="content-wrapper">
@@ -310,7 +310,8 @@
     <footer>
         <div class="footer-content">
             <div class="copyright">
-                <p>&copy; 2024 Da-Wei, Hao. All rights reserved.</p>
+                <p>&copy; 2024 Da-Wei, Hao</p>
+                <p>All rights reserved.</p>
             </div>
             <div class="social-icons">
                 <a href="https://github.com/dwhao84" target="_blank" rel="noopener noreferrer">
@@ -322,5 +323,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
