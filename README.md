@@ -14,6 +14,7 @@
 
         html, body {
             height: 100%;
+            width: 100%;
         }
 
         body {
@@ -171,11 +172,11 @@
             color: #fff;
             padding: 30px 0;
             width: 100%;
+            flex-shrink: 0;
         }
 
         .footer-content {
             width: 100%;
-            margin: 0 auto;
             text-align: center;
         }
 
