@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -166,6 +165,7 @@
             100% { transform: scale(1); }
         }
     </style>
+
 </head>
 <body>
     <header>
@@ -195,7 +195,7 @@
 
         <!-- App Store App -->
         <div class="project-card">
-            <img src="https://via.placeholder.com/400x200" alt="App Store Clone Screenshot" class="project-image">
+            <img src="https://github.com/dwhao84/dwhao84.github.io/blob/83ad61433133e4b9cc6719a05c22597d7762ed72/App_store.jpg" alt="App Store Clone Screenshot" class="project-image">
             <div class="project-content">
                 <h3>App Store App</h3>
                 <p>Recreation of the App Store interface demonstrating UIKit proficiency.</p>
@@ -208,7 +208,7 @@
 
         <!-- YouBike App -->
         <div class="project-card">
-            <img src="https://via.placeholder.com/400x200" alt="YouBike API Integration Screenshot" class="project-image">
+            <img src="https://github.com/dwhao84/dwhao84.github.io/blob/83ad61433133e4b9cc6719a05c22597d7762ed72/Youbike_banner.jpg" alt="YouBike API Integration Screenshot" class="project-image">
             <div class="project-content">
                 <h3>YouBike App</h3>
                 <p>Implementation of JSON decoding and Core Data with the YouBike API.</p>
@@ -251,5 +251,6 @@
             <i class="fas fa-file-download"></i>Download Resume
         </a>
     </div>
+
 </body>
 </html>
