@@ -286,7 +286,7 @@
 
             <!-- Multiple Choice App -->
             <div class="project-card">
-                <img src="CleanShot 2024-10-09 at 21.54.07@2x.png" alt="Multiple Choice Challenge Screenshot" class="project-image">
+                <img src="Multiple_Choice.png" alt="Multiple Choice Challenge Screenshot" class="project-image">
                 <div class="project-content">
                     <h3>Multiple Choice App</h3>
                     <p>Educational app featuring multiple choice questions and scoring.</p>
@@ -321,5 +321,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
