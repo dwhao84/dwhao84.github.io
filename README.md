@@ -6,17 +6,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <style>
         * {
-            box-sizing: border-box;
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         html, body {
             height: 100%;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
         }
 
         body {
@@ -24,16 +20,16 @@
             line-height: 1.6;
             color: #333;
             background-color: #f5f5f7;
-            overflow-x: hidden;
             display: flex;
             flex-direction: column;
         }
 
         .content-wrapper {
+            flex: 1 0 auto;
+            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            flex: 1 0 auto;
         }
 
         header {
@@ -45,7 +41,6 @@
             font-size: 2.5em;
             margin-bottom: 10px;
             color: #1d1d1f;
-            text-align: left;
         }
 
         h2 {
@@ -65,15 +60,14 @@
         }
 
         .github-stats img {
-            height: 200px;
-            width: auto;
+            height: auto;
             max-width: 100%;
         }
 
         /* Projects Section */
         .projects {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 30px;
         }
 
@@ -147,7 +141,7 @@
         /* Download Button Section */
         .download-section {
             text-align: center;
-            margin: 20px 0;
+            margin: 40px 0;
         }
 
         .download-button {
@@ -162,7 +156,6 @@
             font-weight: 500;
             transition: all 0.3s ease;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            animation: pulse 2s infinite;
         }
 
         .download-button:hover {
@@ -175,19 +168,11 @@
             margin-right: 8px;
         }
 
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-
-        /* Footer Styles */
         footer {
             background-color: #000;
             color: #fff;
             padding: 30px 0;
-            width: 100vw;
-            margin-left: calc(-50vw + 50%);
+            width: 100%;
         }
 
         .footer-content {
@@ -216,7 +201,35 @@
         }
 
         .social-icons a:hover {
-            color: #1DA1F2; /* Twitter blue color */
+            color: #1DA1F2;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .projects {
+                grid-template-columns: 1fr;
+            }
+
+            .github-stats {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .github-stats img {
+                width: 100%;
+            }
         }
     </style>
 
