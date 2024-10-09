@@ -12,6 +12,14 @@
             padding: 0;
         }
 
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
@@ -19,14 +27,14 @@
             background-color: #f5f5f7;
             display: flex;
             flex-direction: column;
-            min-height: 100vh;
         }
 
         .content-wrapper {
+            flex: 1 0 auto;
+            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            flex: 1;
         }
 
         header {
@@ -176,6 +184,7 @@
 
         /* Footer Styles */
         footer {
+            flex-shrink: 0;
             background-color: #000;
             color: #fff;
             padding: 30px 0;
