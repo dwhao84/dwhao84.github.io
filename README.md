@@ -27,10 +27,8 @@
         }
 
         .content-wrapper {
-            flex: 1 0 auto;
             width: 100%;
             max-width: 1200px;
-            margin: 0 auto;
             padding: 20px;
         }
 
@@ -170,9 +168,9 @@
         footer {
             background-color: #000;
             color: #fff;
-            padding: 30px 0;
             width: 100%;
-            flex-shrink: 0;
+            padding: 30px 0;
+            margin-top: auto;
         }
 
         .footer-content {
