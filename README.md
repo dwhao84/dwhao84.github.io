@@ -195,8 +195,7 @@
 
         <!-- App Store App -->
         <div class="project-card">
-            <img src="https://raw.githubusercontent.com/dwhao84/dwhao84.github.io/d2b137af2ff88e705ebc384766667f5effc5b01c/App_store.jpg" alt="App Store Clone Screenshot" class="project-image">
-            <div class="project-content">
+                <img src="App_store.jpg" alt="App Store Clone Screenshot" class="project-image">
                 <h3>App Store App</h3>
                 <p>Recreation of the App Store interface demonstrating UIKit proficiency.</p>
                 <div class="project-links">
