@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,6 +23,7 @@
             background-color: #f5f5f7;
             display: flex;
             flex-direction: column;
+            overflow-x: hidden;
         }
 
         .content-wrapper {
@@ -177,6 +177,9 @@
 
         .footer-content {
             width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
             text-align: center;
         }
 
@@ -229,6 +232,7 @@
             }
         }
     </style>
+
 </head>
 <body>
     <div class="content-wrapper">
@@ -333,5 +337,6 @@
             </div>
         </div>
     </footer>
+
 </body>
 </html>
