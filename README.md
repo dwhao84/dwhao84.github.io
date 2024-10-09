@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -50,7 +51,6 @@
             text-align: center;
         }
 
-        /* GitHub Stats Section */
         .github-stats {
             display: flex;
             justify-content: center;
@@ -64,7 +64,6 @@
             max-width: 100%;
         }
 
-        /* Projects Section */
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -138,7 +137,6 @@
             background: #292929;
         }
 
-        /* Download Button Section */
         .download-section {
             text-align: center;
             margin: 40px 0;
@@ -176,9 +174,8 @@
         }
 
         .footer-content {
-            max-width: 1200px;
+            width: 100%;
             margin: 0 auto;
-            padding: 0 20px;
             text-align: center;
         }
 
@@ -204,7 +201,6 @@
             color: #1DA1F2;
         }
 
-        /* Responsive adjustments */
         @media (max-width: 768px) {
             .content-wrapper {
                 padding: 10px;
@@ -232,7 +228,6 @@
             }
         }
     </style>
-
 </head>
 <body>
     <div class="content-wrapper">
@@ -337,6 +332,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
