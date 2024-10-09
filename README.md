@@ -24,13 +24,10 @@
             line-height: 1.6;
             color: #333;
             background-color: #f5f5f7;
-            display: flex;
-            flex-direction: column;
+            overflow-x: hidden;
         }
 
         .content-wrapper {
-            flex: 1 0 auto;
-            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
@@ -186,7 +183,8 @@
             background-color: #000;
             color: #fff;
             padding: 30px 0;
-            width: 100%;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
         }
 
         .footer-content {
@@ -323,6 +321,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
