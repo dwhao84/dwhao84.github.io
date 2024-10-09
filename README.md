@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -78,6 +79,7 @@
             width: 100%;
             height: 200px;
             object-fit: cover;
+            object-position: top;
         }
 
         .project-content {
@@ -165,7 +167,6 @@
             100% { transform: scale(1); }
         }
     </style>
-
 </head>
 <body>
     <header>
@@ -195,7 +196,8 @@
 
         <!-- App Store App -->
         <div class="project-card">
-                <img src="App_store.jpg" alt="App Store Clone Screenshot" class="project-image">
+            <img src="App_store.jpg" alt="App Store Clone Screenshot" class="project-image">
+            <div class="project-content">
                 <h3>App Store App</h3>
                 <p>Recreation of the App Store interface demonstrating UIKit proficiency.</p>
                 <div class="project-links">
@@ -204,7 +206,6 @@
                 </div>
             </div>
         </div>
-
 
         <!-- YouBike App -->
         <div class="project-card">
@@ -251,6 +252,5 @@
             <i class="fas fa-file-download"></i>Download Resume
         </a>
     </div>
-
 </body>
 </html>
