@@ -166,6 +166,30 @@
             50% { transform: scale(1.05); }
             100% { transform: scale(1); }
         }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            color: #333;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #0077b5;
+        }
+
     </style>
 </head>
 <body>
@@ -252,5 +276,15 @@
             <i class="fas fa-file-download"></i>Download Resume
         </a>
     </div>
+       <footer>
+        <div class="social-icons">
+            <a href="https://github.com/dwhao84" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/YourTwitterHandle" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
