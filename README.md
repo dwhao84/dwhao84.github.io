@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,11 +24,11 @@
             background-color: #f5f5f7;
             display: flex;
             flex-direction: column;
-            min-height: 100vh; /* 新增此行 */
+            min-height: 100vh;
         }
 
         .main-container {
-            flex: 1; /* 修改此行 */
+            flex: 1;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -242,7 +243,6 @@
             }
         }
     </style>
-
 </head>
 <body>
     <div class="main-container">
@@ -327,7 +327,7 @@
                 </div>
 
                 <div class="download-section">
-                    <a href="path/to/your/resume.pdf" class="download-button" download>
+                    <a href="#" id="downloadCV" class="download-button">
                         <i class="fas fa-file-download"></i>Download Resume
                     </a>
                 </div>
@@ -352,5 +352,49 @@
         </div>
     </footer>
 
+    <script>
+    document.getElementById('downloadCV').addEventListener('click', function(e) {
+        e.preventDefault();
+        // Replace with your GitHub Pages URL and CV filename
+        var cvUrl = 'https://yourusername.github.io/path/to/your/resume.pdf';
+        
+        // Use fetch to check the content type before downloading
+        fetch(cvUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                
+                // Check if the content type is PDF
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/pdf')) {
+                    throw new Error('File is not a PDF');
+                }
+                
+                return response.blob();
+            })
+            .then(blob => {
+                // Create a temporary URL for the blob
+                const blobUrl = window.URL.createObjectURL(blob);
+                
+                // Create a temporary anchor element
+                const link = document.createElement('a');
+                link.href = blobUrl;
+                link.download = 'Da-Wei_Hao_Resume.pdf';
+                
+                // Append to body, click programmatically, then remove
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Release the blob URL
+                window.URL.revokeObjectURL(blobUrl);
+            })
+            .catch(error => {
+                console.error('Error downloading the CV:', error);
+                alert('There was an error downloading the CV. Please try again later.');
+            });
+    });
+    </script>
 </body>
 </html>
