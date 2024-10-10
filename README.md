@@ -301,7 +301,7 @@
 
                     <!-- Psychological Quiz App -->
                     <div class="project-card">
-                        <img src="https://via.placeholder.com/400x200" alt="Psychological Quiz App Screenshot" class="project-image">
+                        <img src="tokyo.png" alt="Psychological Quiz App Screenshot" class="project-image">
                         <div class="project-content">
                             <h3>Psychological Quiz App</h3>
                             <p>Interactive quiz application built with UIKit and Storyboard.</p>
