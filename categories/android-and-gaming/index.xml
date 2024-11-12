@@ -6,14 +6,13 @@
     <description>Recent content in Android and Gaming on Da-Wei, Hao</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
     <atom:link href="https://dwhao84.github.io/categories/android-and-gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Use Checklists To Improve Your UX</title>
       <link>https://dwhao84.github.io/blog/post-1/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dwhao84.github.io/blog/post-1/</guid>
-      <description>&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;&#xA;&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;&#xA;&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;&#xA;&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h5 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h5&gt;&#xA;&lt;p&gt;Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;my-tech-stack&#34;&gt;My Tech Stack&lt;/h2&gt;&#xA;&lt;h2 id=&#34;design-pattern&#34;&gt;Design Pattern&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MVC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ui&#34;&gt;UI&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Programmatically UI&lt;/li&gt;&#xA;&lt;li&gt;Storyboard&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;third-party-management&#34;&gt;Third party management&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Swift Package Manager&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;third-party-framework&#34;&gt;Third party framework&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Kingfisher&lt;/li&gt;&#xA;&lt;li&gt;Firebase&lt;/li&gt;&#xA;&lt;li&gt;Lottie&lt;/li&gt;&#xA;&lt;li&gt;SwiftlyEmail&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;version-control&#34;&gt;Version control&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Git&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub&lt;/li&gt;&#xA;&lt;li&gt;Firebase&lt;/li&gt;&#xA;&lt;li&gt;SourceTree&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
