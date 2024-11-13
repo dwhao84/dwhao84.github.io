@@ -1,1 +1,34 @@
+# 基本設置
 site_name: My Docs
+site_url: https://dwhao84.github.io/ # 替換成您的 GitHub Pages URL
+site_author: Da-Wei
+site_description: Personal documentation and notes
+
+# 主題設置
+theme:
+  name: material # 使用 material 主題
+  language: zh-TW # 設置為繁體中文
+  features:
+    - navigation.tabs # 導航標籤
+    - navigation.top # 返回頂部按鈕
+    - search.highlight # 搜尋高亮
+    - search.share # 搜尋分享
+
+  # 配色方案
+  palette:
+    primary: indigo
+    accent: indigo
+
+# 導航設置
+nav:
+  - Home: index.md
+  - About: about.md
+  - Contact: contact.md
+
+# Markdown 擴展
+markdown_extensions:
+  - tables # 表格支援
+  - attr_list # 屬性列表
+  - md_in_html # HTML 中的 Markdown
+  - pymdownx.highlight # 程式碼高亮
+  - pymdownx.superfences # 程式碼區塊增強
