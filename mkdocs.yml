@@ -8,6 +8,7 @@ site_description: Personal documentation and notes
 theme:
   name: material
   language: zh-Hant # 改為 zh，而不是 zh-TW
+  logo: assets/logo.png
 
   # 功能設定
   features:
