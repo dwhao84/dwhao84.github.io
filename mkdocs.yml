@@ -7,7 +7,7 @@ site_description: Personal documentation and notes
 # 主題設置
 theme:
   name: material
-  language: zh # 改為 zh，而不是 zh-TW
+  language: en # 改為 zh，而不是 zh-TW
 
   # 功能設定
   features:
