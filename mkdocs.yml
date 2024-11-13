@@ -7,7 +7,7 @@ site_description: Personal documentation and notes
 # 主題設置
 theme:
   name: material
-  language: zh-Hant # 改為 zh，而不是 zh-TW
+  language: zh-Hant # 改為 zh-Hant，zh是簡體中文。
   logo: assets/logo.png
 
   # 功能設定
