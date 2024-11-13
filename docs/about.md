@@ -1,10 +1,12 @@
-# ABOUT ME
+# About Me 關於我
 
-你好，我叫大緯，台北人。
+你好，我是 Da-Wei，1995 年生，來自台北。
 
-我目前是在北歐零售業任職，我之會想學習程式語言，主要想透過學習程式語言解決一下生活、工作上的問題。
+目前在北歐零售業工作，由於經常需要處理大量數據，讓我有學習程式語言的興趣。
 
+希望透過程式設計的技能，不僅能提升工作效率，也能解決日常生活中的各種問題。
 
-[GitHub][https://github.com/dwhao84]
+歡迎透過以下網站了解我更多：
 
-[Medium](https://medium.com/@dwsamurai84_dev)
+- [GitHub](https://github.com/dwhao84)
+- [Medium](https://medium.com/@dwsamurai84_dev)
