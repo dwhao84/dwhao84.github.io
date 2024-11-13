@@ -1,29 +1,73 @@
-# 基本設置
-site_name: Da-Wei
-site_url: https://dwhao84.github.io/ # 替換成您的 GitHub Pages URL
-site_author: Da-Wei
-site_description: Personal documentation and notes
-
 # 主題設置
 theme:
-  name: material # 使用 material 主題
-  language: zh-TW # 設置為繁體中文
+  name: material
+  language: zh-TW
+
+  # Logo 和 favicon 設定（如果沒有圖片可以先註解掉）
+  # logo: assets/logo.png
+  # favicon: assets/favicon.png
+
+  # 功能設定
   features:
-    - navigation.tabs # 導航標籤
+    # 導航功能
+    - navigation.tabs # 頂部標籤式導航
     - navigation.top # 返回頂部按鈕
-    - search.highlight # 搜尋高亮
-    - search.share # 搜尋分享
+    - navigation.sections # 側邊欄分區
+    - toc.follow # 目錄跟隨
+
+    # 搜尋功能
+    - search.highlight # 搜尋結果高亮
+    - search.suggest # 搜尋建議
+
+    # 內容功能
+    - content.code.copy # 程式碼複製按鈕
 
   # 配色方案
   palette:
-    primary: indigo
-    accent: indigo
+    # 亮色主題
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple # 更改主色調
+      accent: purple # 更改強調色
+      toggle:
+        icon: material/weather-sunny
+        name: 切換至深色模式
+
+    # 暗色主題
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple # 更改主色調
+      accent: deep purple # 更改強調色
+      toggle:
+        icon: material/weather-night
+        name: 切換至淺色模式
+
+# 社群連結
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dwhao84
+      name: GitHub
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@dwsamurai84_dev
+      name: Medium
+    - icon: fontawesome/solid/envelope
+      link: mailto:dwsamurai84@gmail.com
+      name: Email
+
+# 頁腳設定
+copyright: Copyright &copy; 2024 Da-Wei
 
 # 導航設置
 nav:
-  - Home: index.md
-  - About: about.md
-  - Contact: contact.md
+  - 首頁:
+      - 歡迎: index.md
+      - 入門指南: getting-started.md
+  - 技術筆記:
+      - Swift: tutorials/swift.md
+      - Python: tutorials/python.md
+  - 關於: about.md
+  - 聯絡: contact.md
 
 # Markdown 擴展
 markdown_extensions:
@@ -31,4 +75,6 @@ markdown_extensions:
   - attr_list # 屬性列表
   - md_in_html # HTML 中的 Markdown
   - pymdownx.highlight # 程式碼高亮
-  - pymdownx.superfences # 程式碼區塊增強
+  - pymdownx.superfences # 程式碼區塊
+  - admonition # 提示區塊
+  - pymdownx.details # 可摺疊區塊
