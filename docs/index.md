@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Welcome to My Blog
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+這是我的個人文件網站。
 
-## Commands
+## 關於我
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+你好，我是 Da-Wei，1995 年生，來自台北。
 
-## Project layout
+## 聯絡方式
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [GitHub](https://github.com/dwhao84)
+- [Medium](https://medium.com/@dwsamurai84_dev)
