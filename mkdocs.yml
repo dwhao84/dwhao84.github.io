@@ -68,10 +68,11 @@ copyright: Copyright &copy; 2024 Da-Wei
 # 導航設置
 nav:
   - 首頁 / Home:
-      - 歡迎: index.md
-  - 筆記 / Notes:
-      - Swift: tutorials/swift.md
-      - Python: tutorials/python.md
+      - index.md
+  - 工作經歷 / Working Experience:
+      - work_experience/resume.md
+  - 專案作品 / Projects:
+      - projects/Drink_Order_App.md
   - 關於我 / About Me: about.md
   - 聯絡方式 / Contact: contact.md
 
