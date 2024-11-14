@@ -67,7 +67,7 @@ copyright: Copyright &copy; 2024 Da-Wei
 
 # 導航設置
 nav:
- - 關於我 / About Me:
+  - 關於我 / About Me:
       - dawei_blogs.md
       - techstack.md
   - 工作經歷 / Working Experience:
