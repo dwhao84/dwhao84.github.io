@@ -69,6 +69,7 @@ copyright: Copyright &copy; 2024 Da-Wei
 nav:
   - 首頁 / Home:
       - index.md
+      - techstack.md
   - 工作經歷 / Working Experience:
       - work_experience/resume.md
   - 專案作品 / Projects:
