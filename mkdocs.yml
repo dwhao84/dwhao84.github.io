@@ -66,9 +66,10 @@ extra:
 copyright: Copyright &copy; 2024 Da-Wei
 
 # 導航設置
+# At the root level of your config
 nav:
+  - Home: dawei_blogs.md # This will be your landing page
   - 關於我 / About Me:
-      - dawei_blogs.md
       - techstack.md
   - 工作經歷 / Working Experience:
       - work_experience/resume.md
