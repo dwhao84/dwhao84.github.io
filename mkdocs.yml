@@ -65,10 +65,15 @@ extra:
 # 頁腳設定
 copyright: Copyright &copy; 2024 Da-Wei
 
+# 文檔目錄設定
+docs_dir: docs
+
+# 首頁設定
+index: dawei_blogs.md
+
 # 導航設置
-# At the root level of your config
 nav:
-  - Home: dawei_blogs.md # This will be your landing page
+  - Home: dawei_blogs.md
   - 關於我 / About Me:
       - techstack.md
   - 工作經歷 / Working Experience:
