@@ -1,8 +1,8 @@
 # 基本設置
 site_name: Da-Wei
 site_url: https://dwhao84.github.io/
-site_author: Da-Wei
-site_description: Personal documentation and notes
+site_author: Da-Wei, Hao
+site_description: Dawei's introduction
 
 # 主題設置
 theme:
@@ -68,7 +68,7 @@ copyright: Copyright &copy; 2024 Da-Wei
 # 導航設置
 nav:
   - 首頁 / Home:
-      - index.md
+      - dawei_blogs.md
       - techstack.md
   - 工作經歷 / Working Experience:
       - work_experience/resume.md
