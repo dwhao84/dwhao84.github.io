@@ -30,6 +30,12 @@ theme:
     - content.code.copy
     - content.tabs.link
 
+    # 新增的功能
+    - navigation.tracking  # 滾動追蹤
+    - navigation.instant   # 即時頁面切換
+    - header.autohide     # 自動隱藏標題
+    - announce.dismiss    # 可關閉公告
+
   # 配色方案
   palette:
     # 亮色主題
@@ -92,23 +98,40 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
-    - footnotes    # 腳註
+  - footnotes    # 腳註
   - def_list    # 定義列表 
   - pymdownx.tasklist:  # 任務清單
       custom_checkbox: true
-  - pymdownx.emoji:     # emoji支援
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true # 標題錨點連結
+
+  - pymdownx.emoji:   # Emoji 支援
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.critic   # 修訂標記
+  - meta              # 文章元數據
+  - pymdownx.snippets # 代碼片段
+  - pymdownx.arithmatex: # LaTeX 公式
+      generic: true
 
 extra:
   analytics:
     provider: google
-    property: G-2KRBBRDVWW  # 替換為你的 GA 追蹤碼
+    property: !ENV GA_TRACKING_ID  # 替換為你的 GA 追蹤碼
+  
+  # 新增
+  consent:
+    title: Cookie 同意 # Cookie 提示
+    description: >- 
+      我們使用 Cookie 來識別您的重複訪問和偏好設置...
 
 # 插件 (簡化版)
 plugins:
   - search
-  - minify:      # 最小化 HTML/CSS/JS
-      minify_html: true
-  - social       # 社群分享預覽
+  # - social       # 社群分享預覽 
   - tags         # 標籤系統
+  - minify:      
+      minify_html: true
+      minify_js: true
+      minify_css: true
