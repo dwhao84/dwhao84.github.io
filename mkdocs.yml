@@ -73,6 +73,7 @@ nav:
   - 首頁 / Home Page: index.md
   - 關於我 / About Me:
       - techstack.md
+      - personality.md
   - 工作經歷 / Working Experience:
       - work_experience/resume.md
   - 專案作品 / Projects:
