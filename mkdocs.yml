@@ -92,7 +92,23 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
+    - footnotes    # 腳註
+  - def_list    # 定義列表 
+  - pymdownx.tasklist:  # 任務清單
+      custom_checkbox: true
+  - pymdownx.emoji:     # emoji支援
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  analytics:
+    provider: google
+    property: G-2KRBBRDVWW  # 替換為你的 GA 追蹤碼
 
 # 插件 (簡化版)
 plugins:
   - search
+  - minify:      # 最小化 HTML/CSS/JS
+      minify_html: true
+  - social       # 社群分享預覽
+  - tags         # 標籤系統
