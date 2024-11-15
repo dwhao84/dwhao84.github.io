@@ -9,6 +9,7 @@ theme:
   name: material
   language: zh-Hant # 改為 zh-Hant，zh是簡體中文。
   logo: assets/logo.png
+  favicon: assets/square-code.png # 這裡放你的 icon 檔案路徑
 
   # 功能設定
   features:
