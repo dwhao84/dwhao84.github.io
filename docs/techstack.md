@@ -40,13 +40,6 @@
 
 - Swift Package manager(SPM)
 
-#### Libray
-
-- Firebase
-- Lottie
-- Swiftlymail
-- Kingfisher
-
 <!--- Python --->
 
 ### [**Python**](https://www.python.org)
