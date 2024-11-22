@@ -130,4 +130,3 @@ extra:
 plugins:
   - search
   - tags
-  - minify
