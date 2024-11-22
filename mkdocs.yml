@@ -77,8 +77,8 @@ docs_dir: docs
 
 # 導航設置
 nav:
-  - 首頁 / Home Page: index.md
-  - 關於我 / About Me:
+  - 關於我 / About Me: index.md
+  - 技術能力 / Tech Stack:
       - techstack.md
   - 工作經歷 / Working Experience:
       - work_experience/resume.md
