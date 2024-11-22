@@ -74,6 +74,7 @@ copyright: Copyright &copy; 2024 Da-Wei
 
 # 文檔目錄設定
 docs_dir: docs
+site_dir: site
 
 # 導航設置
 nav:
