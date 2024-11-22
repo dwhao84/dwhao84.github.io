@@ -7,7 +7,7 @@
 <!-- 專案照片 -->
 
 <p align="center">
-<img src="DrinkOrderApp.png" width="800"/>
+<img src="assets/images/DrinkOrderApp.png" width="800"/>
 </p>
 
 - 訂飲料 App - [作品介紹](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-50-drink-order-app-1-get-6d4f7566c6f5) | [GitHub](https://github.com/dwhao84/DrinkOrderApp)
