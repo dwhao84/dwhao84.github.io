@@ -129,9 +129,5 @@ extra:
 # 插件 (簡化版)
 plugins:
   - search
-  # - social       # 社群分享預覽 
-  - tags         # 標籤系統
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
+  - tags
+  - minify
