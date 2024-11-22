@@ -4,6 +4,12 @@
 
 ## 專案作品
 
+<!-- 專案照片 -->
+
+<p align="center">
+<img src="https://github.com/dwhao84/DrinkOrderApp/blob/f190c8aed6f04815e7781bb33e31223f07d38f5d/DrinkOrderApp/Supporting%20Files/Assets.xcassets/README%20Use/Drink%20Order%20App.imageset/Drink%20Order%20App.png" width="800"/>
+</p>
+
 - 訂飲料 App - [作品介紹](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-50-drink-order-app-1-get-6d4f7566c6f5) | [GitHub](https://github.com/dwhao84/DrinkOrderApp)
 
 - App Store App - [作品介紹](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-48-app-store-425538e1f98b) | [GitHub](https://github.com/dwhao84/HW48-App-store)
