@@ -131,7 +131,7 @@ plugins:
   - search
   # - social       # 社群分享預覽 
   - tags         # 標籤系統
-  - minify:      
+  - minify:
       minify_html: true
       minify_js: true
       minify_css: true
