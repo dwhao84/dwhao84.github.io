@@ -120,3 +120,6 @@ nav:
   - 技術能力 / Tech Stack: techstack.md
   - 工作經歷 / Working Experience: work_experience/resume.md
   - 聯絡方式 / Contact: contact.md
+
+extra_css:
+  - stylesheets/extra.css
