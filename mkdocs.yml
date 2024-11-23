@@ -79,12 +79,12 @@ site_dir: site
 # 導航設置
 nav:
   - 關於我 / About Me: index.md
+  - 專案作品 / Projects:
+      - projects/projects.md
   - 技術能力 / Tech Stack:
       - techstack.md
   - 工作經歷 / Working Experience:
       - work_experience/resume.md
-  - 專案作品 / Projects:
-      - projects/projects.md
   - 聯絡方式 / Contact: contact.md
 
 # Markdown 擴展
