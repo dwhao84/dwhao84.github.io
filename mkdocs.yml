@@ -7,9 +7,9 @@ site_description: Dawei's introduction
 # 主題設置
 theme:
   name: material
-  language: zh-Hant # 改為 zh-Hant，zh是簡體中文。
+  language: zh-Hant
   logo: assets/logo.png
-  favicon: assets/square-code.png # 這裡放你的 icon 檔案路徑
+  favicon: assets/square-code.png
 
   # 功能設定
   features:
@@ -19,6 +19,8 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.footer
+    - navigation.tracking
+    - navigation.instant
     - toc.follow
 
     # 搜尋功能
@@ -29,16 +31,11 @@ theme:
     # 內容功能
     - content.code.copy
     - content.tabs.link
-
-    # 新增的功能
-    - navigation.tracking  # 滾動追蹤
-    - navigation.instant   # 即時頁面切換
-    - header.autohide     # 自動隱藏標題
-    - announce.dismiss    # 可關閉公告
+    - header.autohide
+    - announce.dismiss
 
   # 配色方案
   palette:
-    # 亮色主題
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: deep purple
@@ -47,7 +44,6 @@ theme:
         icon: material/weather-sunny
         name: 切換至深色模式
 
-    # 暗色主題
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: purple
@@ -55,6 +51,38 @@ theme:
       toggle:
         icon: material/weather-night
         name: 切換至淺色模式
+
+# Markdown 擴展
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - meta
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+
+# 插件
+plugins:
+  - search
+  - tags
 
 # 社群連結
 extra:
@@ -69,6 +97,15 @@ extra:
       link: mailto:dwsamurai84@gmail.com
       name: Email
 
+  analytics:
+    provider: google
+    property: !ENV GA_TRACKING_ID
+
+  consent:
+    title: Cookie 同意
+    description: >-
+      我們使用 Cookie 來識別您的重複訪問和偏好設置...
+
 # 頁腳設定
 copyright: Copyright &copy; 2024 Da-Wei
 
@@ -79,55 +116,7 @@ site_dir: site
 # 導航設置
 nav:
   - 關於我 / About Me: index.md
-  - 專案作品 / Projects:
-      - projects/projects.md
-  - 技術能力 / Tech Stack:
-      - techstack.md
-  - 工作經歷 / Working Experience:
-      - work_experience/resume.md
+  - 專案作品 / Projects: projects/projects.md
+  - 技術能力 / Tech Stack: techstack.md
+  - 工作經歷 / Working Experience: work_experience/resume.md
   - 聯絡方式 / Contact: contact.md
-
-# Markdown 擴展
-markdown_extensions:
-  - tables
-  - attr_list
-  - md_in_html
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
-  - footnotes    # 腳註
-  - def_list    # 定義列表 
-  - pymdownx.tasklist:  # 任務清單
-      custom_checkbox: true
-  - toc:
-      permalink: true # 標題錨點連結
-
-  - pymdownx.emoji:   # Emoji 支援
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-  - pymdownx.critic   # 修訂標記
-  - meta              # 文章元數據
-  - pymdownx.snippets # 代碼片段
-  - pymdownx.arithmatex: # LaTeX 公式
-      generic: true
-
-extra:
-  analytics:
-    provider: google
-    property: !ENV GA_TRACKING_ID  # 替換為你的 GA 追蹤碼
-  
-  # 新增
-  consent:
-    title: Cookie 同意 # Cookie 提示
-    description: >- 
-      我們使用 Cookie 來識別您的重複訪問和偏好設置...
-
-# 插件 (簡化版)
-plugins:
-  - search
-  - tags
