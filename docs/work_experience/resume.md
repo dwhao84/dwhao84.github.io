@@ -1,30 +1,4 @@
-# **簡歷**
-
-## **學歷**
-
-華梵大學 工業設計系 2013-2017
-
 ## **過去工作經歷**
-
-### **彼得潘課程** 2022/11-2023/7
-
-- [訂飲料 App](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-50-drink-order-app-1-get-6d4f7566c6f5)
-
-- [App Store App](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-48-app-store-425538e1f98b)
-
-- [YouBike 站點查詢&導航 App](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-47-%E4%B8%B2%E6%8E%A5you-bike-api-%E8%B3%87%E6%96%99%E5%AD%98%E5%88%B0core-data-70fa9782e915)
-
-- [World Time Clock](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-43-world-time-by-using-tableview-b1c9d6806bff)
-
-- [Custom MKTileOverlay in MapView](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-42-custom-mktileoverlay-in-mapview-d821d19813c5)
-
-- [PsychologicalTest(心理測驗 with Storyboard)](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-37-psychologicaltest-%E5%BF%83%E7%90%86%E6%B8%AC%E9%A9%97-with-storyboard-747b1de293f7)
-
-- [Multiple Choice(選擇題)](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw36-multiple-choice-%E9%81%B8%E6%93%87%E9%A1%8C-d55c2e9e6089)
-
-- [Radio App](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-34-radio-app-programmatically-232c9e502aea)
-
-- [Apple Music 播放器](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-32-apple-music-music-player-cc17ee34a175)
 
 ### **IKEA 宜家家居** 2019/6 - 現在
 
@@ -45,3 +19,7 @@
 - 設計 12 檔活動，配合銷售團隊實現商品轉換率 28%，藉由影規劃性的測試顧客滿意度從 75% 提升至 85%，會員回購率增加 10%。
 
 - 擔任內部講師公司品牌文化知識推廣，當年度培訓 20+ 員工，提高部門知識完成效率 30%。
+
+## **學歷**
+
+華梵大學 工業設計系 2013-2017
