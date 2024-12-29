@@ -8,7 +8,7 @@ iOS developer
 
 - **Swift**
 
-  - Swift, 1year
+  - Swift, 2 years
   - UIKit
   - Git / Swift Package Manager / RESTful API
   - Design Pattern: MVC / Singletion / Notification
@@ -43,6 +43,10 @@ iOS developer
 
 - **IKEA Shopkeeper** 2022/3－now
 - **IKEA Visual Merchardisier** 2018/6－2022/3
+
+## Community
+
+* iPlayground 2024 Staff
 
 ## **GitHub Stats**
 

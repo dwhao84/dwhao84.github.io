@@ -8,7 +8,7 @@ iOS 開發工程師
 ## **技能**
 
 - **Swift**
-  - Swift 語言使用經驗一年
+  - Swift 語言使用經驗2年
   - UIKit
   - Git / Swift Package Manager / RESTful API
   - 設計模式：MVC / singletion /Notification
@@ -35,6 +35,10 @@ iOS 開發工程師
 
 - [Medium](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-47-串接you-bike-api-資料存到core-data-70fa9782e915) | [GitHub](https://github.com/dwhao84/HW-44-JSON-Decoder)
   - 開發 YouBike 應用程式，整合開放資料 API 提供即時站點搜尋、導航功能與收藏管理。使用 UIKit 開發，運用 MKMapKit 實現地圖功能，並採用 Core Data 進行資料儲存。
+
+## **社團經驗**
+
+* iPlayground工作人員2024
 
 ## **工作經驗**
 
