@@ -1,153 +1,115 @@
 # 基本設置
-site_name: Da-Wei
+site_name: DaWei
 site_url: https://dwhao84.github.io/
-site_author: Da-Wei, Hao
-site_description: Dawei's introduction
-
-use_directory_urls: true
-strict: true
+site_author: DaWei
+site_description: Portfolio website for DaWei
 
 # 主題設置
 theme:
   name: material
   language: zh-Hant
+
+  # 樣式設定
   logo: assets/logo.png
   favicon: assets/square-code.png
 
+  # 配色設定
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   # 功能設定
   features:
-    # 導航功能
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    - navigation.top
+    - navigation.path
     - navigation.footer
-    - navigation.tracking
-    - navigation.instant
     - toc.follow
-    - navigation.indexes
-    - navigation.language # 修改為 navigation.language
-
-    # 搜尋功能
-    - search.highlight
-    - search.share
     - search.suggest
-
-    # 內容功能
-    - content.code.copy
+    - search.highlight
     - content.tabs.link
-    - header.autohide
-    - announce.dismiss
+    - content.code.annotation
+    - content.code.copy
 
-  # 配色方案
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/weather-sunny
-        name: 切換至深色模式
-
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: purple
-      accent: deep purple
-      toggle:
-        icon: material/weather-night
-        name: 切換至淺色模式
-
-# Markdown 擴展
-markdown_extensions:
-  - tables
-  - attr_list
-  - md_in_html
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
-  - footnotes
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - toc:
-      permalink: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.critic
-  - meta
-  - pymdownx.snippets
-  - pymdownx.arithmatex:
-      generic: true
-
-# 插件
+# 插件設定
 plugins:
   - search:
       lang:
         - en
         - zh
   - tags
+  - redirects:
+      redirect_maps:
+        index.md: zh-Hant/index.md
 
-# 語言配置
+# 擴展設定
+markdown_extensions:
+  - tables
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg # 導覽設定
+
+nav:
+  - Home: index.md
+  - About:
+      - 中文: zh-Hant/index.md
+      - English: en/index.md
+  - Projects:
+      - 中文: zh-Hant/專案.md
+      - English: en/projects.md
+  - Tech Stack:
+      - 中文: zh-Hant/技術.md
+      - English: en/techstack.md
+  - Experience:
+      - 中文: zh-Hant/工作經驗.md
+      - English: en/resume.md
+  - Contact:
+      - 中文: zh-Hant/聯絡方式.md
+      - English: en/contact.md
+
+# 額外設定
 extra:
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: 繁體中文
-      link: /zh-Hant/
-      lang: zh-Hant
-
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/dwhao84
-      name: GitHub
     - icon: fontawesome/brands/medium
       link: https://medium.com/@dwsamurai84_dev
-      name: Medium
     - icon: fontawesome/solid/envelope
       link: mailto:dwsamurai84@gmail.com
-      name: Email
 
-  analytics:
-    provider: google
-    property: !ENV GA_TRACKING_ID
+# 版權設定
+copyright: Copyright &copy; 2024 DaWei
 
-  consent:
-    title: Cookie 同意
-    description: >-
-      我們使用 Cookie 來識別您的重複訪問和偏好設置...
-
-# 頁腳設定
-copyright: Copyright &copy; 2024 Da-Wei
-
-# 文檔目錄設定
-docs_dir: docs
-site_dir: site
-
-# 導航設置
-# 導航設置
-nav:
-  - Home: zh-Hant/index.md # 加入這行作為首頁
-  - About Me:
-      - zh-Hant/index.md
-      - en/index.md
-  - Projects:
-      - zh-Hant/專案.md
-      - en/projects.md
-  - Tech Stack:
-      - zh-Hant/技術.md
-      - en/techstack.md
-  - Working Experience:
-      - zh-Hant/工作經驗.md
-      - en/resume.md
-  - Contact:
-      - zh-Hant/聯絡方式.md
-      - en/contact.md
-
+# CSS 自定義
 extra_css:
   - assets/extra.css
