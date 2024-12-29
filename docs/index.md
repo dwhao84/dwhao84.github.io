@@ -2,54 +2,43 @@
 
 # **郝大緯 Da-Wei, Hao**
 
-iOS developer  
-0987-665-751 | dwsamurai84@gmail.com
+iOS developer
+0987-665-751 | [dwsamurai84@gmail.com](https://github.com/dwhao84/dwhao84.github.io.git)
 
-## **關於我**
+## **Skill**s
 
-您好，我是郝大緯，29 歲。  
-為了解決生活與工作中的實際需求，我投入 iOS app 開發學習。目前有上架作品，並具備多個資料庫應用(CRUD)專案經驗。
+- **Swift**
 
-## **專案作品**
+  - Swift, 1year
+  - UIKit
+  - Git / Swift Package Manager / RESTful API
+  - Design Pattern: MVC / Singletion / Notification
 
-### **訂飲料 App**
+## **About Me**
+
+Hello, I'm David Ho, 29 years old. I've dedicated myself to learning iOS app development to address practical needs in both life and work. I have published apps on the App Store and possess experience with multiple database (CRUD) application projects.
+
+## **Projects**
+
+### **Drink Order App**
 
 - [作品介紹](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-50-drink-order-app-1-get-6d4f7566c6f5) | [GitHub](https://github.com/dwhao84/DrinkOrderApp)
-  - 開發飲料訂購 App，透過程式碼建立 UI、串接 Airtable API，實現飲料資料的展示與訂購功能。
+  - Developed a beverage ordering app using UIKit Programmatically UI and integrated with Airtable API to implement beverage data display and ordering functionality.
 
 ### **App Store App**
 
 - [作品介紹](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-48-app-store-425538e1f98b) | [GitHub](https://github.com/dwhao84/HW48-App-store)
-  - 這是一個透過 URLSession 串接 App Store API，使用 TableView 展示前 25 名熱門應用程式，並支援免費/付費切換與深淺色模式的 iOS 專案。
+  - Using UIKit programmatic UI that fetches App Store API data through URLSession, displays the top 25 popular applications using UITableView, includes free/paid app toggle functionality, and supports light/dark mode.
 
-### **YouBike 站點查詢&導航 App**
+### **YouBike Station Search & Navigation App**
 
 - [作品介紹](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-47-串接you-bike-api-資料存到core-data-70fa9782e915) | [GitHub](https://github.com/dwhao84/HW-44-JSON-Decoder)
-  - 這是一個 YouBike App，整合即時站點查詢、導航功能、收藏管理，並使用 Swift 開發，結合 API 串接、地圖服務和 local 儲存功能。
+  - Developed a YouBike app that integrates Open Data API to provide real-time station search, navigation features, and favorites management. Built using UIKit, MKMapKit for mapping functionality, and Core Data for data storage.
 
-## **工作經歷**
+## **Working Experience**
 
-- **IKEA 賣場銷售經理** 2022/3－現在
-- **IKEA 視覺陳列師** 2018/6－2022/3
-
-## **技能**
-
-- **Swift**
-    - 熟悉 UIKit 框架
-    - 熟悉 MVC 設計模式開發經驗
-    - 擅長使用程式碼開發 UI 與 Storyboard
-
-- **Python**
-    - 具備 Selenium 自動化測試經驗
-    - 熟練運用 Pandas 進行資料分析
-    - 使用 Openpyxl 處理 Excel 檔案
-
-- **Git**
-
-## **工作經歷**
-
-- **IKEA 賣場銷售經理** 2022/3－現在
-- **IKEA 視覺陳列師** 2018/6－2022/3
+- **IKEA Shopkeeper** 2022/3－now
+- **IKEA Visual Merchardisier** 2018/6－2022/3
 
 ## **GitHub Stats**
 
@@ -60,11 +49,11 @@ iOS developer
  </a>
 </div>
 
-## **聯絡方式 & 技術文章**
+## **Contact & Blog**
 
 - ✉️ Email: [dwsamurai84@gmail.com](mailto:dwsamurai84@gmail.com)
 - 💻 GitHub: [dwhao84](https://github.com/dwhao84)
 - 📝 Medium: [@dwsamurai84_dev](https://medium.com/@dwsamurai84_dev)
 - 📝 HackMD: [@dwhao84](https://hackmd.io/@dwhao84)
 
-本網站使用 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) 主題建置。
+This website built by [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) theme。
