@@ -22,6 +22,8 @@ theme:
     - navigation.tracking
     - navigation.instant
     - toc.follow
+    - navigation.indexes
+    - navigation.language # 修改為 navigation.language
 
     # 搜尋功能
     - search.highlight
@@ -81,11 +83,22 @@ markdown_extensions:
 
 # 插件
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+        - zh
   - tags
 
-# 社群連結
+# 語言配置
 extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 繁體中文
+      link: /zh-Hant/
+      lang: zh-Hant
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/dwhao84
@@ -115,11 +128,21 @@ site_dir: site
 
 # 導航設置
 nav:
-  - 關於我 / About Me: index.md
-  - 專案作品 / Projects: projects/projects.md
-  - 技術能力 / Tech Stack: techstack.md
-  - 工作經歷 / Working Experience: work_experience/resume.md
-  - 聯絡方式 / Contact: contact.md
+  - 關於我 / About Me:
+      - zh-Hant/index.md
+      - en/index.md
+  - 專案作品 / Projects:
+      - zh-Hant/projects.md
+      - en/projects/projects.md
+  - 技術能力 / Tech Stack:
+      - zh-Hant/techstack.md
+      - en/techstack.md
+  - 工作經歷 / Working Experience:
+      - zh-Hant/resume.md
+      - en/resume.md
+  - 聯絡方式 / Contact:
+      - zh-Hant/contact.md
+      - en/contact.md
 
 extra_css:
   - stylesheets/extra.css
