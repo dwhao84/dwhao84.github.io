@@ -137,16 +137,16 @@ nav:
       - zh-Hant/index.md
       - en/index.md
   - Projects:
-      - zh-Hant/projects.md
+      - zh-Hant/專案.md
       - en/projects.md
   - Tech Stack:
-      - zh-Hant/techstack.md
+      - zh-Hant/技術.md
       - en/techstack.md
   - Working Experience:
-      - zh-Hant/resume.md
+      - zh-Hant/工作經驗.md
       - en/resume.md
   - Contact:
-      - zh-Hant/contact.md
+      - zh-Hant/聯絡方式.md
       - en/contact.md
 
 extra_css:
