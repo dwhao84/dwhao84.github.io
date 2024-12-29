@@ -17,15 +17,21 @@ iOS 開發工程師
 
 ### **飲料訂購 App**
 
+![DrinkOrderApp](../assets/DrinkOrderApp.png) ![DrinkOrderApp-Concept](../assets/DrinkOrderApp-Concept.png)
+
 - [Medium](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-50-drink-order-app-1-get-6d4f7566c6f5) | [GitHub](https://github.com/dwhao84/DrinkOrderApp)
-  - 使用 UIKit 程式碼方式開發使用者介面，並整合 Airtable API 實現飲料資料展示與訂購功能。
+  - 使用 UIKit Programmatically UI製作畫面，透過 URLSession 串接 Airtable API 並實現 RESTful API的功能，能夠訂購飲料以及展示與訂購功能。
 
 ### **App Store 應用程式**
 
+![App Store App](../assets/App-Store-app.gif)
+
 - [Medium](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-48-app-store-425538e1f98b) | [GitHub](https://github.com/dwhao84/HW48-App-store)
-  - 使用 UIKit 程式碼方式開發使用者介面，透過 URLSession 串接 App Store API，使用 UITableView 顯示前 25 名熱門應用程式，具備免費/付費應用程式切換功能，並支援淺色/深色模式。
+  - 使用 UIKit Programmatically UI製作畫面，透過 URLSession 串接 App Store API，使用 UITableView 顯示前 25 名熱門應用程式，具備免費/付費應用程式切換功能，並支援淺色/深色模式。
 
 ### **YouBike 站點搜尋與導航 App**
+
+![Youbike app](../assets/Youbike.png)
 
 - [Medium](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-47-串接you-bike-api-資料存到core-data-70fa9782e915) | [GitHub](https://github.com/dwhao84/HW-44-JSON-Decoder)
   - 開發 YouBike 應用程式，整合開放資料 API 提供即時站點搜尋、導航功能與收藏管理。使用 UIKit 開發，運用 MKMapKit 實現地圖功能，並採用 Core Data 進行資料儲存。

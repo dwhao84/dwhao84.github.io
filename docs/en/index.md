@@ -17,15 +17,24 @@ iOS developer
 
 ### **Drink Order App**
 
+![DrinkOrderApp](../assets/DrinkOrderApp.png)
+
+![DrinkOrderApp-Concept](../assets/DrinkOrderApp-Concept.png)
+
 - [Medium](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-50-drink-order-app-1-get-6d4f7566c6f5) | [GitHub](https://github.com/dwhao84/DrinkOrderApp)
   - Developed a beverage ordering app using UIKit Programmatically UI and integrated with Airtable API to implement beverage data display and ordering functionality.
 
 ### **App Store App**
 
+![App Store App](../assets/App-Store-app.gif)
+
 - [Medium](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-48-app-store-425538e1f98b) | [GitHub](https://github.com/dwhao84/HW48-App-store)
   - Using UIKit programmatic UI that fetches App Store API data through URLSession, displays the top 25 popular applications using UITableView, includes free/paid app toggle functionality, and supports light/dark mode.
 
 ### **YouBike Station Search & Navigation App**
+
+![Youbike app](../assets/Youbike.png)
+![Youbike app-1](../assets/Youbike-app.gif)
 
 - [Medium](https://medium.com/彼得潘的-swift-ios-app-開發教室/hw-47-串接you-bike-api-資料存到core-data-70fa9782e915) | [GitHub](https://github.com/dwhao84/HW-44-JSON-Decoder)
   - Developed a YouBike app that integrates Open Data API to provide real-time station search, navigation features, and favorites management. Built using UIKit, MKMapKit for mapping functionality, and Core Data for data storage.
