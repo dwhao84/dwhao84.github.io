@@ -1,6 +1,4 @@
-# **關於我**
-
-# **郝大緯 Da-Wei, Hao**
+# **Da-Wei, Hao 郝大緯**
 
 iOS developer
 0987-665-751 | [dwsamurai84@gmail.com](https://github.com/dwhao84/dwhao84.github.io.git)
@@ -14,7 +12,7 @@ iOS developer
   - Git / Swift Package Manager / RESTful API
   - Design Pattern: MVC / Singletion / Notification
 
-## **About Me**
+## **Self introduction**
 
 Hello, I'm David Ho, 29 years old. I've dedicated myself to learning iOS app development to address practical needs in both life and work. I have published apps on the App Store and possess experience with multiple database (CRUD) application projects.
 
