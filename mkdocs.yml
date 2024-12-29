@@ -4,6 +4,9 @@ site_url: https://dwhao84.github.io/
 site_author: Da-Wei, Hao
 site_description: Dawei's introduction
 
+use_directory_urls: true
+strict: true
+
 # 主題設置
 theme:
   name: material
@@ -127,22 +130,24 @@ docs_dir: docs
 site_dir: site
 
 # 導航設置
+# 導航設置
 nav:
-  - 關於我 / About Me:
+  - Home: zh-Hant/index.md # 加入這行作為首頁
+  - About Me:
       - zh-Hant/index.md
       - en/index.md
-  - 專案作品 / Projects:
+  - Projects:
       - zh-Hant/projects.md
-      - en/projects/projects.md
-  - 技術能力 / Tech Stack:
+      - en/projects.md
+  - Tech Stack:
       - zh-Hant/techstack.md
       - en/techstack.md
-  - 工作經歷 / Working Experience:
+  - Working Experience:
       - zh-Hant/resume.md
       - en/resume.md
-  - 聯絡方式 / Contact:
+  - Contact:
       - zh-Hant/contact.md
       - en/contact.md
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/extra.css

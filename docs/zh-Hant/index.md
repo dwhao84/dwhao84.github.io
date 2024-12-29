@@ -2,7 +2,6 @@
 
 iOS developer
 
-
 0987-665-751 | [dwsamurai84@gmail.com](https://github.com/dwhao84/dwhao84.github.io.git)
 
 ## **技術**
