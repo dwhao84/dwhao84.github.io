@@ -1,6 +1,8 @@
 # **郝大緯**
 
-iOS 開發工程師
+iOS 工程師
+
+
 0987-665-751 | [dwsamurai84@gmail.com](https://github.com/dwhao84/dwhao84.github.io.git)
 
 ## **技能**
