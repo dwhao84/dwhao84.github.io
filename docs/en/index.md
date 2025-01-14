@@ -11,7 +11,8 @@ iOS developer
   - Swift, 2 years
   - UIKit
   - Git / Swift Package Manager / RESTful API
-  - Design Pattern: MVC / Singletion / Notification
+  - Design Pattern: MVC / MVVM / Singletion / Notification
+  - Notification：FCM / APNs
 
 ## **Projects**
 

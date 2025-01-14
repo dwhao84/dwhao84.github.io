@@ -2,7 +2,6 @@
 
 iOS 工程師
 
-
 0987-665-751 | [dwsamurai84@gmail.com](https://github.com/dwhao84/dwhao84.github.io.git)
 
 ## **技能**
@@ -11,7 +10,8 @@ iOS 工程師
   - Swift 語言使用經驗2年
   - UIKit
   - Git / Swift Package Manager / RESTful API
-  - 設計模式：MVC / singletion /Notification
+  - 設計模式：MVC / MVVM / Singletion / Notification
+  - 推播：FCM / APNs
 
 ## **專案經驗**
 
