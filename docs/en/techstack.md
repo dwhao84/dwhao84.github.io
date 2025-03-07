@@ -12,6 +12,12 @@
 - Firebase
 - Notification
 - Storyboard & Programmatically UI
+- Localization
+- Google Analytics
+- Core Data / User Defalut
+
+### Notification
+- FCM
 
 #### Skills
 
