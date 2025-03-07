@@ -15,6 +15,33 @@ iOS 工程師
 
 ## **專案經驗**
 
+## 台灣博物館
+
+![台灣博物館](../assets/TaiwanMuseum.png)
+
+- 透過整合政府 API [資料](https://data.gov.tw/en/datasets/6242)開發了一款展示台灣各地博物館的 iOS 應用程式。
+
+### **台灣博物館**
+- 使用的技術：
+  - MVVM
+  - 程式UI
+  - 多國語系（支援 7 種語言）
+  - Core Data
+  - 深色模式
+
+## 台灣座標轉換器
+
+![台灣座標轉換器](../assets/TaiwanCoordinateConverter.png)
+
+- [App Store](https://apps.apple.com/tw/app/taiwan-coordinate-converter/id6741114893?l=en-GB)
+- 我開發了一款 iOS 應用程式，該應用整合了 MapKit 實現即時位置追蹤，具有專為台灣座標系統轉換設計的自訂演算法，並使用 Core Data 儲存緊急聯絡人資訊。此應用支援一鍵緊急通話功能，在緊急情況下能快速回應。
+
+- 使用的技術：
+  - 程式UI
+  - 多國語系（支援 7 種語言）
+  - Core Data
+  - 深色模式
+
 ### **飲料訂購 App**
 
 ![DrinkOrderApp](../assets/DrinkOrderApp.png) ![DrinkOrderApp-Concept](../assets/DrinkOrderApp-Concept.png)

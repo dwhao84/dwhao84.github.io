@@ -16,6 +16,30 @@ iOS developer
 
 ## **Projects**
 
+![Taiwan Museum](../assets/TaiwanMuseum.png)
+  - Developed an iOS application showcasing museums across Taiwan by integrating government API [data](https://data.gov.tw/en/datasets/6242).
+
+### **Taiwan Museum**
+- Techie that I use:
+  - MVVM Design Pattern
+  - Programmatically UI
+  - Localizations (Support 7 Languages)
+  - Core Data
+  - Dark Mode
+
+
+### **Taiwan Coordinate Converter**
+![Taiwan Coordinate Converter](../assets/TaiwanCoordinateConverter.png)
+
+- [App Store](https://apps.apple.com/tw/app/taiwan-coordinate-converter/id6741114893?l=en-GB)
+  - I built an iOS app that implements MapKit for real-time location tracking, features custom algorithms for Taiwan coordinate system conversions, and utilizes Core Data for emergency contact storage. The app enables one-tap emergency calling functionality for quick response during critical situations.
+
+- Techie I use:
+  - Programmatically UI
+  - Localizations (Support 7 Languages)
+  - Core Data
+  - Dark Mode
+
 ### **Drink Order App**
 
 ![DrinkOrderApp](../assets/DrinkOrderApp.png)

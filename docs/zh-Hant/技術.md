@@ -7,7 +7,9 @@
 #### Design Pattern
 
 - MVC
+- MVVM
 - Singletion
+- Firebase
 - Notification
 - Storyboard & Programmatically UI
 
