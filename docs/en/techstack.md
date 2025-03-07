@@ -1,26 +1,30 @@
-# **Tech Stacks**
+# **Tech Stack**
 
-### [**Swift**](https://developer.apple.com/swift/)
+## **iOS Development**
+- [Swift](https://developer.apple.com/swift/) (Primary language)
+- UIKit framework
+- Interface Development:
+  - Storyboard
+  - Programmatic UI
 
-* UIKit
+## **Architecture & Design Patterns**
+- MVC (Model-View-Controller)
+- MVVM (Model-View-ViewModel)
+- Singleton
 
-#### Design Pattern
-
-- MVC
-- MVVM
-- Singletion
+## **Data Management**
+- Core Data
+- UserDefaults
 - Firebase
-- Notification
-- Storyboard & Programmatically UI
+- Airtable
+
+## **Features & Integrations**
+- Notifications:
+  - Firebase Cloud Messaging (FCM)
 - Localization
-- Google Analytics
-- Core Data / User Defalut
+- Google Analytics 4
 
-### Notification
-- FCM
-
-#### Skills
-
-- Git
-- Swift Package manager(SPM)
+## **Development Tools**
+- Git version control
+- Swift Package Manager (SPM)
 - SourceTree
