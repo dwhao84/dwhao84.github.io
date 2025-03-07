@@ -7,7 +7,7 @@
 ### **Technologies Used:**
 - MVVM Design Pattern
 - Programmatically UI
-- Localizations (Support 7 Languages)
+- Localizations (Support 24 Languages)
 - Core Data
 - Dark Mode
 
