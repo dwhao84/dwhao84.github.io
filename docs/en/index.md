@@ -6,13 +6,13 @@ iOS developer
 
 ## **Skill**s
 
-- **Swift**
-
+### **Swift**
   - Swift, 2 years
   - UIKit
-  - Git / Swift Package Manager / RESTful API
+  - Git / Swift Package Manager / RESTful API / Core Data / User Defalut
   - Design Pattern: MVC / MVVM / Singletion / Notification
   - Notification：FCM / APNs
+  - Localizations
 
 ## **Projects**
 
@@ -23,7 +23,7 @@ iOS developer
 - Techie that I use:
   - MVVM Design Pattern
   - Programmatically UI
-  - Localizations (Support 7 Languages)
+  - Localizations (Support 24 Languages)
   - Core Data
   - Dark Mode
 
