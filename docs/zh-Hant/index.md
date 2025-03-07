@@ -6,16 +6,16 @@ iOS 工程師
 
 ## **技能**
 
-- **Swift**
+### **Swift**
   - Swift 語言使用經驗2年
   - UIKit
-  - Git / Swift Package Manager / RESTful API
-  - 設計模式：MVC / MVVM / Singletion / Notification
+  - Git / Swift Package Manager / RESTful API / Core Data / User Defalut
+  - 設計模式：MVC / MVVM / Singletion / Notification 
   - 推播：FCM / APNs
 
 ## **專案經驗**
 
-## 台灣博物館
+## **台灣博物館**
 
 ![台灣博物館](../assets/TaiwanMuseum.png)
 
@@ -29,7 +29,7 @@ iOS 工程師
   - Core Data
   - 深色模式
 
-## 台灣座標轉換器
+## **台灣座標轉換器**
 
 ![台灣座標轉換器](../assets/TaiwanCoordinateConverter.png)
 
