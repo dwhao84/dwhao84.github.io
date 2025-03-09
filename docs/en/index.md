@@ -51,14 +51,15 @@ Developed an iOS application integrating MapKit for real-time location tracking,
 - Dark Mode support
 - Google Anaylytics 
 
-### Inventory App
-![Inventroy](../assets/DrinkOrderApp.png)
+## **Inventroy App**
+![Inventory](../assets/Inventory%20App.png)
 
 I developed this app using Programmatic UI, integrated it with a custom Airtable backend API to implement CRUD operations, and learned how to set up server-side storage for beverage data. The app uses URLSession to fetch and parse JSON data from the server, displaying the information in the app's UI where users can browse and order materials.
 
 **Key Technologies:**
 
 - Programmatic UI
+- Pagination
 - URLSession integration with Airtable API
 - RESTful API
 - Firebase Auth

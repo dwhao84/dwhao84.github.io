@@ -61,6 +61,7 @@
 
 **核心技術：**
 - 程式化 UI
+- 分頁讀取功能
 - URLSession與Airtable API整合
 - RESTful API
 - Firebase身份驗證

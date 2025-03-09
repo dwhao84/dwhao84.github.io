@@ -38,6 +38,7 @@ I developed this app using Programmatic UI, integrated it with a custom Airtable
 **Key Technologies:**
 
 - Programmatic UI
+- Pagination
 - URLSession integration with Airtable API
 - RESTful API
 - Firebase Auth
