@@ -10,6 +10,8 @@
 - Localizations (Support 24 Languages)
 - Core Data
 - Dark Mode
+- Google Anaylytics 
+- Firebase Crashlytics
 
 ---
 
@@ -24,8 +26,25 @@
 - Localizations (Support 7 Languages)
 - Core Data
 - Dark Mode
+- Google Anaylytics 
 
 ---
+
+## **Inventroy App**
+![Inventory](../assets/Inventory App.png)
+
+I developed this app using Programmatic UI, integrated it with a custom Airtable backend API to implement CRUD operations, and learned how to set up server-side storage for beverage data. The app uses URLSession to fetch and parse JSON data from the server, displaying the information in the app's UI where users can browse and order materials.
+
+**Key Technologies:**
+
+- Programmatic UI
+- URLSession integration with Airtable API
+- RESTful API
+- Firebase Auth
+- Google Anaylytics 
+
+---
+
 
 ## **Drink Order App**
 ![DrinkOrderApp](../assets/DrinkOrderApp.png) ![DrinkOrderApp-Concept](../assets/DrinkOrderApp-Concept.png)
