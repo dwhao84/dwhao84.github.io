@@ -3,26 +3,43 @@
   order: -1;
 }
 
-/* 調整目錄位置 */
+/* 調整目錄位置 - 確保在左側 */
 @media (min-width: 768px) {
   .toc {
-    position: fixed;
-    left: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 200px;
-    z-index: 100;
+    position: fixed !important;
+    left: 2rem !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 200px !important;
+    z-index: 100 !important;
+    display: block !important;
   }
   
   /* 調整主內容區域 */
   .content {
-    margin-left: 250px;
+    margin-left: 250px !important;
+  }
+  
+  /* 確保頁面內容在左側 */
+  .page-content {
+    margin-left: 250px !important;
+  }
+  
+  /* 調整文章內容位置 */
+  .article-content {
+    margin-left: 250px !important;
   }
 }
 
 /* 移動端隱藏目錄 */
 @media (max-width: 767px) {
   .toc {
-    display: none;
+    display: none !important;
+  }
+  
+  .content,
+  .page-content,
+  .article-content {
+    margin-left: 0 !important;
   }
 }
