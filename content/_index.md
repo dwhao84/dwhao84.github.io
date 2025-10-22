@@ -5,15 +5,10 @@ type: "page"
 layout: "page"
 ---
 
-# 歡迎來到我的個人網站！
+# 郝大緯
+## iOS 工程師
 
-我是一位 **iOS 工程師**，專精於 Swift 開發，擁有 2 年的開發經驗。熱衷於創建優質的 iOS 應用程式，並持續學習最新的開發技術。
-
-## 聯絡方式
-
-- 📧 **Email**: dwsamurai84@gmail.com
-- 💻 **GitHub**: [dwhao84](https://github.com/dwhao84)
-- 📝 **Medium**: [@dwsamurai84_dev](https://medium.com/@dwsamurai84_dev)
+歡迎來到我的個人網站！我是一位專精於 Swift 開發的 iOS 工程師，擁有 2 年的開發經驗。熱衷於創建優質的 iOS 應用程式，並持續學習最新的開發技術。
 
 ---
 
@@ -56,5 +51,11 @@ layout: "page"
 - **iPlayground 工作人員** (2024)
 
 ---
+
+## 聯絡方式
+
+- 📧 **Email**: dwsamurai84@gmail.com
+- 💻 **GitHub**: [dwhao84](https://github.com/dwhao84)
+- 📝 **Medium**: [@dwsamurai84_dev](https://medium.com/@dwsamurai84_dev)
 
 歡迎瀏覽我的 [專案作品](/projects/) 和 [技術文章](/tech/)，或直接 [聯絡我](/contact/) 進行交流！

@@ -3,9 +3,13 @@ colorScheme = "blowfish"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 
-enableA11y = false
+enableA11y = true
 enableSearch = true
 enableCodeCopy = true
+
+defaultBackgroundImage = "/assets/logo.png"
+defaultFeaturedImage = "/assets/logo.png"
+defaultSocialImage = "/assets/logo.png"
 
 replyByEmail = false
 
@@ -23,6 +27,7 @@ fingerprintAlgorithm = "sha512"
 
 [header]
   layout = "fixed"
+  sticky = true
 
 [footer]
   showMenu = true
@@ -32,13 +37,14 @@ fingerprintAlgorithm = "sha512"
   showScrollToTop = true
 
 [homepage]
-  layout = "page"
+  layout = "hero"
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "projects"
   cardView = true
   cardViewScreenWidth = false
+  homepageImage = "/assets/logo.png"
 
 [article]
   showDate = false
