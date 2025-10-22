@@ -1,0 +1,20 @@
+# -- Language Configuration --
+languageCode = "zh-TW"
+title = "DaWei"
+description = "iOS 工程師作品集網站"
+
+# -- Social Links --
+[[social]]
+  name = "GitHub"
+  url = "https://github.com/dwhao84"
+  icon = "github"
+
+[[social]]
+  name = "Medium"
+  url = "https://medium.com/@dwsamurai84_dev"
+  icon = "medium"
+
+[[social]]
+  name = "Email"
+  url = "mailto:dwsamurai84@gmail.com"
+  icon = "envelope"

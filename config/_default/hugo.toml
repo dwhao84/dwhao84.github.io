@@ -1,0 +1,25 @@
+# -- Site Configuration --
+theme = "blowfish"
+baseURL = "https://dwhao84.github.io/"
+defaultContentLanguage = "zh-TW"
+disableLanguages = []
+
+enableRobotsTXT = true
+summaryLength = 30
+hasCJKLanguage = true
+
+buildDrafts = false
+buildFuture = false
+
+enableEmoji = true
+
+# -- Build Configuration --
+[build]
+  writeStats = true
+  useResourceCacheWhen = "fallback"
+
+# -- Output Formats --
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]

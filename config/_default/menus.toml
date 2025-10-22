@@ -1,0 +1,42 @@
+# -- Menu Configuration --
+[[main]]
+  identifier = "home"
+  name = "首頁"
+  url = "/"
+  weight = 1
+
+[[main]]
+  identifier = "tech"
+  name = "技術文章"
+  url = "/tech/"
+  weight = 2
+
+[[main]]
+  identifier = "about"
+  name = "關於"
+  url = "/about/"
+  weight = 3
+
+[[main]]
+  identifier = "projects"
+  name = "專案"
+  url = "/projects/"
+  weight = 4
+
+[[main]]
+  identifier = "experience"
+  name = "經驗"
+  url = "/experience/"
+  weight = 5
+
+[[main]]
+  identifier = "privacy"
+  name = "隱私權條款"
+  url = "/privacy/"
+  weight = 6
+
+[[main]]
+  identifier = "contact"
+  name = "聯絡"
+  url = "/contact/"
+  weight = 7

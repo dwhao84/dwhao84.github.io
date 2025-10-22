@@ -1,0 +1,14 @@
+# -- Markup Configuration --
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.tableOfContents]
+    enabled = true
+    startLevel = 2
+    endLevel = 6

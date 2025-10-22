@@ -1,2 +1,11 @@
-.env
-.venv
+# Hugo
+public/
+resources/
+hugo_stats.json
+
+# Node modules
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
