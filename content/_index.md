@@ -20,6 +20,12 @@ layout: "page"
 
 開發了一款 iOS 應用程式，整合 MapKit 實現即時位置追蹤，具有專為台灣座標系統轉換設計的自訂演算法。
 
+**主要功能：**
+- Auto-positioning 自動定位
+- Map Your Position 顯示地圖位置  
+- Manual Position 手動定位
+- Contacts 新增聯絡人
+
 ### 台灣博物館
 ![台灣博物館](assets/TaiwanMuseum.png)
 
