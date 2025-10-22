@@ -11,6 +11,9 @@ defaultBackgroundImage = "/assets/logo.png"
 defaultFeaturedImage = "/assets/logo.png"
 defaultSocialImage = "/assets/logo.png"
 
+# 自定義 CSS
+customCSS = ["assets/custom.css"]
+
 replyByEmail = false
 
 mainSections = ["about", "projects", "tech", "experience", "contact"]
@@ -22,6 +25,8 @@ disableTextInHeader = false
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
+# TOC position - left or right
+tocPosition = "left"
 
 fingerprintAlgorithm = "sha512"
 
