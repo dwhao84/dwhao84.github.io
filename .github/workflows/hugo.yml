@@ -1,4 +1,4 @@
-name: Hugo Build and Deploy
+name: Hugo Build
 
 on:
   push:
@@ -23,12 +23,13 @@ jobs:
         hugo-version: '0.152.0'
         extended: true
 
-    - name: Build
-      run: hugo --minify
+    - name: Build Hugo site
+      run: hugo --minify --destination ./docs
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add docs/
+        git diff --staged --quiet || git commit -m "Update Hugo site"
+        git push
