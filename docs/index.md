@@ -9,9 +9,9 @@ hide:
 <div class="hero-section">
 <img src="https://github.com/dwhao84.png" alt="Dawei" class="hero-avatar">
 <div class="hero-text">
-<h1 class="hero-title">Hi, I'm Dawei</h1>
+<h1 class="hero-title"><strong>Hi, I'm Dawei</strong></h1>
 
-iOS 工程師，擅長 Swift・UIKit・SwiftUI。目前任職於租車公司，負責內部 App 開發與維護。同時獨立開發並上架多款 App 至 App Store。
+iOS 工程師，擅長 Swift・UIKit・SwiftUI。<br>目前任職於租車公司，負責內部 App 開發與維護。<br>同時獨立開發並上架多款 App 至 App Store。
 
 <div style="margin-top:1rem;">
 <a href="about/" class="btn-outline">關於我</a> <a href="projects/" class="btn-outline">專案作品</a>
