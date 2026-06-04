@@ -668,13 +668,14 @@
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
+  margin-right: 0.55rem !important;
 }
 
 .md-header .md-logo img {
-  width: 1.6rem !important;
-  height: 1.6rem !important;
+  width: 1.75rem !important;
+  height: 1.75rem !important;
   object-fit: contain;
-  border-radius: 0.35rem;
+  border-radius: 0.4rem;
 }
 
 /* Hide default footer */
