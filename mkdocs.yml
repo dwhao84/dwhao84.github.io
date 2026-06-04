@@ -1,0 +1,41 @@
+site_name: Dawei Hao
+site_url: https://dwhao84.github.io/
+site_description: iOS 工程師 - 郝大緯
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh-TW
+  favicon: assets/logo.png
+  logo: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/custom.css
+
+nav:
+  - 首頁: index.md
+  - 關於我: about.md
+  - 經歷: experience.md
+  - 專案作品: projects.md
+  - Blog:
+      - blog/index.md
+      - Hello World: blog/posts/hello-world.md
+  - 技術: tech.md
+  - Tags: tags.md
+  - 隱私權政策: privacy.md
+  - 聯絡方式: contact.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
