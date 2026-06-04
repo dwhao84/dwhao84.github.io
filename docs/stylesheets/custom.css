@@ -573,6 +573,19 @@
   color: #999 !important;
 }
 
+.md-header .md-logo {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.md-header .md-logo img {
+  width: 1.6rem !important;
+  height: 1.6rem !important;
+  object-fit: contain;
+  border-radius: 0.35rem;
+}
+
 /* Hide default footer */
 .md-footer {
   display: none !important;
