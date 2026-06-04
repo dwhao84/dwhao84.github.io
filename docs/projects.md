@@ -1,9 +1,9 @@
 ---
-title: 專案作品
+title: 專案
 description: 我的 iOS App 作品集 — 資料自動同步自 App Store
 ---
 
-# 專案作品
+# 專案
 
 <div class="project-grid">
 
@@ -148,4 +148,3 @@ description: 我的 iOS App 作品集 — 資料自動同步自 App Store
 </a>
 
 </div>
-

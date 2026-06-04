@@ -14,7 +14,7 @@ hide:
 iOS 工程師，擅長 Swift・UIKit・SwiftUI。<br>目前任職於租車公司，負責內部 App 開發與維護。<br>同時獨立開發並上架多款 App 至 App Store。
 
 <div style="margin-top:1rem;">
-<a href="about/" class="btn-outline">關於我</a> <a href="projects/" class="btn-outline">專案作品</a>
+<a href="about/" class="btn-outline">關於我</a> <a href="projects/" class="btn-outline">專案</a>
 </div>
 </div>
 </div>

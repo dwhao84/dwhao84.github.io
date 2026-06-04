@@ -24,7 +24,7 @@ nav:
   - 首頁: index.md
   - 關於我: about.md
   - 經歷: experience.md
-  - 專案作品: projects.md
+  - 專案: projects.md
   - Blog:
       - blog/index.md
       - Hello World: blog/posts/hello-world.md

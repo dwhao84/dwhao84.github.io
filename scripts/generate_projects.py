@@ -10,11 +10,11 @@ import urllib.request
 API_URL = "https://sync-artist-app.zeabur.app/api/apps"
 
 HEADER = """---
-title: 專案作品
+title: 專案
 description: 我的 iOS App 作品集 — 資料自動同步自 App Store
 ---
 
-# 專案作品
+# 專案
 
 """
 
