@@ -40,6 +40,35 @@ tags:
 
 `<!-- more -->` 以上的內容會作為摘要使用，建議放在第一段後面。
 
+## 加入照片或圖片
+
+文章圖片建議放在：
+
+```text
+docs/blog/images/
+```
+
+在 `docs/blog/posts/your-post.md` 裡使用相對路徑引用：
+
+```markdown
+![圖片說明](../images/example.jpg)
+```
+
+如果要控制圖片大小或置中，可以使用 HTML：
+
+```html
+<figure>
+  <img src="../images/example.jpg" alt="圖片說明" style="max-width:720px;width:100%;border-radius:12px;">
+  <figcaption>圖片說明文字</figcaption>
+</figure>
+```
+
+建議：
+
+- 檔名使用英文小寫和連字號，例如 `swiftui-layout-debug.jpg`
+- 優先使用 `.jpg` 或 `.webp` 放照片，`.png` 放截圖
+- 單張圖片盡量壓到 1 MB 以下，避免網站載入太慢
+
 ## 發布流程
 
 1. 建立文章。

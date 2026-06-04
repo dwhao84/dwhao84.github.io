@@ -2,7 +2,7 @@
 
 Personal website built with **MkDocs + Material for MkDocs**. Features a tech blog synced from Medium, and a project showcase auto-generated from the App Store API.
 
-**Live site**: [dwhao84.github.io](https://dwhao84.github.io)
+**Live site**: [blog.dawei84.com](https://blog.dawei84.com)
 
 ## Tech Stack
 
@@ -23,14 +23,18 @@ docs/
   contact.md                # Contact
   blog/
     posts/                  # Blog posts (Markdown)
+    images/                 # Blog photos and screenshots
     .authors.yml            # Author info
   stylesheets/
     custom.css              # Custom styling
+templates/
+  blog-post.md              # Blog post template
 overrides/
   partials/
     footer.html             # Custom footer
     comments.html           # giscus integration
 scripts/
+  new_blog_post.py          # Create a new blog post from template
   generate_index.py         # Fetch Medium RSS + App API -> index.md
   generate_projects.py      # Fetch App API -> projects.md
 ```
@@ -55,7 +59,21 @@ Open [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## Writing a New Blog Post
 
-Create a new `.md` file in `docs/blog/posts/`:
+Use the helper script:
+
+```bash
+python3 scripts/new_blog_post.py "Article Title"
+```
+
+Or specify a slug:
+
+```bash
+python3 scripts/new_blog_post.py "Swift 6 LocalizedStringKey Notes" --slug swift6-localized-string-key
+```
+
+The script creates a post in `docs/blog/posts/` and adds it to the Blog nav in `mkdocs.yml`.
+
+Post format:
 
 ```markdown
 ---
@@ -74,6 +92,37 @@ Summary text...
 
 Full content...
 ```
+
+More details are in [BLOGGING.md](BLOGGING.md).
+
+## Adding Photos to Blog Posts
+
+Put blog photos or screenshots in:
+
+```text
+docs/blog/images/
+```
+
+Then reference them from a post in `docs/blog/posts/`:
+
+```markdown
+![Screenshot description](../images/example.jpg)
+```
+
+For a centered image with caption and responsive width:
+
+```html
+<figure>
+  <img src="../images/example.jpg" alt="Screenshot description" style="max-width:720px;width:100%;border-radius:12px;">
+  <figcaption>Screenshot description</figcaption>
+</figure>
+```
+
+Image guidelines:
+
+- Use lowercase English filenames with hyphens, e.g. `swiftui-layout-debug.jpg`
+- Use `.jpg` or `.webp` for photos, `.png` for screenshots
+- Keep each image under 1 MB when possible
 
 ## Deployment
 

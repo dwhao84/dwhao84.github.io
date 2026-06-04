@@ -21,6 +21,12 @@ tags:
 
 描述實際遇到的錯誤、需求或情境。
 
+如果文章需要放照片，建議把圖片放在 `docs/blog/images/`，再用相對路徑引用：
+
+```markdown
+![圖片說明](../images/example.jpg)
+```
+
 ```swift
 // 可以放最小可重現範例
 ```
