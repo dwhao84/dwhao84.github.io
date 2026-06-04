@@ -28,9 +28,7 @@ nav:
   - Blog:
       - blog/index.md
       - Hello World: blog/posts/hello-world.md
-  - 技術: tech.md
   - Tags: tags.md
-  - 隱私權政策: privacy.md
   - 聯絡方式: contact.md
 
 markdown_extensions:
