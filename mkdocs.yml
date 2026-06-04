@@ -8,7 +8,7 @@ site_dir: site
 theme:
   name: material
   language: zh-TW
-  favicon: assets/logo.png
+  favicon: assets/favicon.svg
   logo: assets/logo.png
   features:
     - navigation.tabs
