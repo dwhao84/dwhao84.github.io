@@ -1,129 +1,90 @@
-# DaWei's Portfolio Website
+# Dawei Hao — iOS Developer Portfolio & Blog
 
-This is my personal portfolio website built with Hugo and the Blowfish theme.
+Personal website built with **MkDocs + Material for MkDocs**. Features a tech blog synced from Medium, and a project showcase auto-generated from the App Store API.
 
-## 🚀 Features
+**Live site**: [dwhao84.github.io](https://dwhao84.github.io)
 
-- **Modern Design**: Clean and professional layout using the Blowfish theme
-- **Responsive**: Mobile-friendly design that works on all devices
-- **Fast Loading**: Optimized for performance with Hugo's static site generation
-- **SEO Optimized**: Built-in SEO features and structured data
-- **Dark/Light Mode**: Automatic theme switching based on user preference
+## Tech Stack
 
-## 🛠️ Technology Stack
+- **MkDocs** + **Material for MkDocs** — static site generator
+- **Python scripts** — auto-generate homepage (Medium RSS) & projects page (App Store API)
+- **GitHub Actions** — CI/CD, auto build & deploy to GitHub Pages
+- **giscus** — comment system powered by GitHub Discussions
 
-- **Hugo**: Static site generator
-- **Blowfish Theme**: Modern, lightweight Hugo theme
-- **Markdown**: Content written in Markdown
-- **GitHub Pages**: Hosted on GitHub Pages
-
-## 📁 Project Structure
+## Project Structure
 
 ```
-├── config/           # Hugo configuration files
-├── content/          # Markdown content files
-├── static/           # Static assets (images, CSS, etc.)
-├── themes/           # Hugo themes (Blowfish)
-└── public/           # Generated static site (not in git)
+mkdocs.yml                  # MkDocs configuration
+docs/
+  index.md                  # Homepage (auto-generated)
+  about.md                  # About me
+  projects.md               # App Store projects (auto-generated)
+  experience.md             # Work experience
+  contact.md                # Contact
+  blog/
+    posts/                  # Blog posts (Markdown)
+    .authors.yml            # Author info
+  stylesheets/
+    custom.css              # Custom styling
+overrides/
+  partials/
+    footer.html             # Custom footer
+    comments.html           # giscus integration
+scripts/
+  generate_index.py         # Fetch Medium RSS + App API -> index.md
+  generate_projects.py      # Fetch App API -> projects.md
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Hugo (v0.141.0 or later)
-- Git
-
-### Local Development
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/dwhao84/dwhao84.github.io.git
-   cd dwhao84.github.io
-   ```
-
-2. Install Hugo theme dependencies:
-   ```bash
-   git submodule update --init --recursive
-   ```
-
-3. Start the development server:
-   ```bash
-   hugo server --buildDrafts
-   ```
-
-4. Open your browser and visit `http://localhost:1313`
-
-### Building for Production
+## Local Development
 
 ```bash
-hugo --buildDrafts
+# Create virtual environment & install
+python3 -m venv .venv
+source .venv/bin/activate
+pip install mkdocs-material
+
+# Generate dynamic pages
+python scripts/generate_index.py
+python scripts/generate_projects.py
+
+# Start dev server
+mkdocs serve
 ```
 
-The generated site will be in the `public/` directory.
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-## 📝 Content Management
+## Writing a New Blog Post
 
-### Adding New Pages
+Create a new `.md` file in `docs/blog/posts/`:
 
-1. Create a new Markdown file in the `content/` directory
-2. Add front matter with appropriate metadata
-3. Write your content in Markdown
+```markdown
+---
+date: 2026-06-04
+authors:
+  - dawei
+tags:
+  - Swift
+---
 
-### Updating Existing Content
+# Post Title
 
-- Edit the Markdown files in the `content/` directory
-- Images should be placed in the `static/assets/` directory
-- Reference images using relative paths: `assets/image.png`
+Summary text...
 
-## 🎨 Customization
+<!-- more -->
 
-### Theme Configuration
+Full content...
+```
 
-The theme is configured in `config/_default/params.toml`. Key settings include:
+## Deployment
 
-- Color scheme and appearance
-- Navigation menu
-- Social links
-- Homepage layout
+Push to `main` branch triggers GitHub Actions:
 
-### Styling
+1. `generate_index.py` — fetches latest Medium articles + top 3 apps
+2. `generate_projects.py` — fetches all apps from App Store API
+3. `mkdocs gh-deploy --force` — builds & deploys to `gh-pages` branch
 
-- Custom CSS can be added to `static/assets/extra.css`
-- Theme variables can be overridden in the configuration files
+## Contact
 
-## 📱 Content Sections
-
-- **首頁 (Home)**: Main landing page with introduction
-- **關於我 (About)**: Personal information and skills
-- **專案 (Projects)**: Portfolio of iOS development projects
-- **技術 (Tech)**: Technical skills and expertise
-- **工作經驗 (Experience)**: Work history and achievements
-- **聯絡方式 (Contact)**: Contact information and social links
-
-## 🚀 Deployment
-
-This site is automatically deployed to GitHub Pages when changes are pushed to the main branch.
-
-### Manual Deployment
-
-1. Build the site:
-   ```bash
-   hugo --buildDrafts
-   ```
-
-2. Deploy the `public/` directory to your hosting provider
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## 📞 Contact
-
-- **Email**: dwsamurai84@gmail.com
 - **GitHub**: [@dwhao84](https://github.com/dwhao84)
 - **Medium**: [@dwsamurai84_dev](https://medium.com/@dwsamurai84_dev)
+- **Email**: dwsamurai84@gmail.com
