@@ -1,7 +1,12 @@
-# Hugo
+# MkDocs
+site/
+.venv/
+
+# Hugo (legacy - can be removed after migration)
 public/
 resources/
 hugo_stats.json
+docs-hugo-backup/
 
 # Node modules
 node_modules/

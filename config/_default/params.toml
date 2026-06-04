@@ -30,7 +30,7 @@ tocPosition = "left"
 
 fingerprintAlgorithm = "sha512"
 
-[header]CleanShot 2025-10-22 at 17.04.58@2x.png
+[header]
   layout = "fixed"
   sticky = true
 
