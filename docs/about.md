@@ -6,13 +6,14 @@ description: iOS 工程師 - 郝大緯
 <div class="hero-section">
 <img src="https://github.com/dwhao84.png" alt="Dawei" class="hero-avatar">
 <div class="hero-text">
-
-# 郝大緯 (Dawei Hao)
-
-An iOS developer from Taiwan 🇹🇼 who loves building apps, sharing knowledge, and continuous learning.
-
-iOS 工程師，目前任職於租車公司，負責內部 App 開發與維護。擅長架構重構、模組化設計與 CI/CD 流程導入。工作之餘獨立開發並上架多款 App 至 App Store，同時在 Medium 撰寫技術文章分享學習心得。
-
+<h1 class="about-title">郝大緯 <span>Dawei Hao</span></h1>
+<p class="about-lead">An iOS developer from Taiwan who loves building apps, sharing knowledge, and continuous learning.</p>
+<p class="about-copy">
+iOS 工程師，目前任職於租車公司，負責內部 App 開發與維護。<br>
+擅長架構重構、模組化設計與 CI/CD 流程導入。<br>
+工作之餘獨立開發並上架多款 App 至 App Store，<br>
+同時在 Medium 撰寫技術文章，分享學習心得。
+</p>
 </div>
 </div>
 
