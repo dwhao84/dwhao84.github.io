@@ -4,13 +4,7 @@
       <stop offset="0" stop-color="#111827"/>
       <stop offset="1" stop-color="#020617"/>
     </linearGradient>
-    <linearGradient id="accent" x1="16" y1="14" x2="50" y2="48" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#2563eb"/>
-    </linearGradient>
   </defs>
   <rect width="64" height="64" rx="16" fill="url(#bg)"/>
-  <path d="M16 18h32a8 8 0 0 1 8 8v12a8 8 0 0 1-8 8H16a8 8 0 0 1-8-8V26a8 8 0 0 1 8-8Z" fill="url(#accent)" opacity=".18"/>
-  <path d="M18 21h28a7 7 0 0 1 7 7v8a7 7 0 0 1-7 7H18a7 7 0 0 1-7-7v-8a7 7 0 0 1 7-7Z" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
-  <text x="32" y="39" text-anchor="middle" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="1.5" fill="#f8fafc">DH</text>
+  <text x="32" y="40" text-anchor="middle" font-family="Inter, SF Pro Display, Arial, sans-serif" font-size="23" font-weight="800" letter-spacing="1.5" fill="#ffffff">DH</text>
 </svg>
