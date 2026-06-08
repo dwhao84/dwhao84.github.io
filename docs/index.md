@@ -24,6 +24,20 @@ iOS 工程師，擅長 Swift・UIKit・SwiftUI。<br>目前任職於租車公司
 ## 最新文章
 
 <div class="article-grid">
+<a href="https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-71-%E5%A6%82%E4%BD%95%E9%80%8F%E9%81%8E-apple-business-manager-abm-%E5%88%86%E7%99%BC-custom-apps-55ea6e7839e5?source=rss-cfe77dadb5d4------2" class="article-card" target="_blank">
+<img src="https://cdn-images-1.medium.com/max/400/1*mc4NdrKhXpq7t2ylB5o7kQ@2x.png" class="article-card-thumb" alt="">
+<div class="article-card-body">
+<div class="article-card-text">
+<h3>HW#71 —如何透過 Apple Business Manager(ABM) 分發 Custom Apps</h3>
+<p>前陣子有幸透過介紹有機會做接案的工作，是替一家做 工業4.0的公司 開發 iOS app，由於 app 上架的方式跟以往上架的方式不同，因此我特別記錄一下，整個上架到發布流程。這次主要是針對 Apple Business Manager (...</p>
+</div>
+<div class="article-card-meta">
+<span class="article-card-date">2026/06/08</span>
+<span class="article-card-readmore">閱讀全文 →</span>
+</div>
+</div>
+</a>
+
 <a href="https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-70-%E5%9C%A8-swiftui-gesture-%E8%A3%A1%E4%BD%BF%E7%94%A8-exclusive-gesture-e67306af784f?source=rss-cfe77dadb5d4------2" class="article-card" target="_blank">
 <img src="https://cdn-images-1.medium.com/max/400/1*oOaNgc7rNFF2_y2cl2k6WQ.gif" class="article-card-thumb" alt="">
 <div class="article-card-body">
@@ -145,20 +159,6 @@ iOS 工程師，擅長 Swift・UIKit・SwiftUI。<br>目前任職於租車公司
 </div>
 <div class="article-card-meta">
 <span class="article-card-date">2025/10/09</span>
-<span class="article-card-readmore">閱讀全文 →</span>
-</div>
-</div>
-</a>
-
-<a href="https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/hw-61-ios-26-whats-new-in-uikit-uibutton-uislider-11ffc2ac63c2?source=rss-cfe77dadb5d4------2" class="article-card" target="_blank">
-<img src="https://cdn-images-1.medium.com/max/400/1*WPUQVZ03MdVzW-imkPcGlg.gif" class="article-card-thumb" alt="">
-<div class="article-card-body">
-<div class="article-card-text">
-<h3>HW#61 — iOS 26 What’s new in UIKit (UIButton & UISlider)</h3>
-<p>HW#61 — iOS 26 What’s new in UIKit (UIButton & UISlider)在今年6月份，Apple發布新版本 iOS 26，這次所主打的是 Liquid Glass (液態玻璃)的效果，身為開發者肯定是...</p>
-</div>
-<div class="article-card-meta">
-<span class="article-card-date">2025/10/07</span>
 <span class="article-card-readmore">閱讀全文 →</span>
 </div>
 </div>
