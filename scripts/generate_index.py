@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 from html import unescape
 
 MEDIUM_RSS = "https://medium.com/feed/@dwsamurai84_dev"
-APP_API = "https://sync-artist-app.zeabur.app/api/apps"
+APP_API = "https://developer-category-api.dawei84.com/api/dawei"
 MAX_ARTICLES = 10
 MAX_APPS = 3
 
@@ -78,7 +78,10 @@ def format_date(pub_date):
 
 
 def fetch_top_apps():
-    req = urllib.request.Request(APP_API, headers={"Accept": "application/json"})
+    req = urllib.request.Request(
+        APP_API,
+        headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"},
+    )
     with urllib.request.urlopen(req) as resp:
         data = json.loads(resp.read())
     apps = data["data"]

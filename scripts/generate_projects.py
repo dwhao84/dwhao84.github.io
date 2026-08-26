@@ -7,7 +7,7 @@ import json
 import re
 import urllib.request
 
-API_URL = "https://sync-artist-app.zeabur.app/api/apps"
+API_URL = "https://developer-category-api.dawei84.com/api/dawei"
 
 HEADER = """---
 title: 專案
@@ -20,7 +20,10 @@ description: 我的 iOS App 作品集 — 資料自動同步自 App Store
 
 
 def fetch_apps():
-    req = urllib.request.Request(API_URL, headers={"Accept": "application/json"})
+    req = urllib.request.Request(
+        API_URL,
+        headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"},
+    )
     with urllib.request.urlopen(req) as resp:
         data = json.loads(resp.read())
     return data["data"]

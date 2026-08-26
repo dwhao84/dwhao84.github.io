@@ -7,6 +7,20 @@ description: 我的 iOS App 作品集 — 資料自動同步自 App Store
 
 <div class="project-grid">
 
+<a href="https://apps.apple.com/tw/app/%E7%A4%BE%E5%AE%85%E5%A5%BD%E7%89%A9-%E4%BA%8C%E6%89%8B%E5%B8%82%E9%9B%86%E8%88%87%E9%84%B0%E9%87%8C%E6%B4%BB%E5%8B%95/id6798766730?uo=4" class="project-card" target="_blank">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/25/7b/6d257b1c-ce37-393b-313e-b5fa85abe045/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="社宅好物｜二手市集與鄰里活動" class="project-card-icon">
+<div class="project-card-body">
+<div class="project-card-text">
+<h3>社宅好物｜二手市集與鄰里活動</h3>
+<p>社宅二手交易平台，專為社會住宅住戶打造的社區面交與活動資訊 App。</p>
+</div>
+<div class="project-card-meta">
+<span class="project-card-price">免費</span>
+<span class="article-card-readmore">App Store →</span>
+</div>
+</div>
+</a>
+
 <a href="https://apps.apple.com/tw/app/shelfcal/id6762213586?uo=4" class="project-card" target="_blank">
 <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/aa/82/05aa826f-7b67-0439-c725-9faba3d35f40/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg" alt="ShelfCal" class="project-card-icon">
 <div class="project-card-body">
@@ -119,26 +133,12 @@ description: 我的 iOS App 作品集 — 資料自動同步自 App Store
 </div>
 </a>
 
-<a href="https://apps.apple.com/tw/app/materialcalculation/id6740449539?uo=4" class="project-card" target="_blank">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/08/75/d6087528-5459-3e35-d852-be9212adaf2b/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg" alt="MaterialCalculation" class="project-card-icon">
-<div class="project-card-body">
-<div class="project-card-text">
-<h3>MaterialCalculation</h3>
-<p>This Racking Calculation App streamlines the process of calculating racking systems. You can enter your required quantity for racking to save time and...</p>
-</div>
-<div class="project-card-meta">
-<span class="project-card-price">免費</span>
-<span class="article-card-readmore">App Store →</span>
-</div>
-</div>
-</a>
-
 <a href="https://apps.apple.com/tw/app/%E9%9B%BB%E6%B0%A3%E7%AE%A1%E7%B7%9A%E9%81%B8%E6%93%87%E5%99%A8/id6566197101?uo=4" class="project-card" target="_blank">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/30/85/0e308572-6591-90f0-d0a5-7af3ae91ac0a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="電氣管線選擇器" class="project-card-icon">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/bd/97/34bd9704-9789-cfee-6877-5cffb01e6fc6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="電氣管線選擇器" class="project-card-icon">
 <div class="project-card-body">
 <div class="project-card-text">
 <h3>電氣管線選擇器</h3>
-<p>根據台灣法規的用戶用電設備裝置規則 > 第 16 條所製作的查表內容，可以節省你大量的查表時間！</p>
+<p>快速查詢導線數量與適用管徑，節省翻閱電工法規表格的時間！</p>
 </div>
 <div class="project-card-meta">
 <span class="project-card-price">NT$ 90</span>
@@ -148,3 +148,4 @@ description: 我的 iOS App 作品集 — 資料自動同步自 App Store
 </a>
 
 </div>
+

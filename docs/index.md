@@ -174,6 +174,17 @@ iOS 工程師，擅長 Swift・UIKit・SwiftUI。<br>目前任職於租車公司
 
 <div class="app-grid">
 
+<a href="https://apps.apple.com/tw/app/%E7%A4%BE%E5%AE%85%E5%A5%BD%E7%89%A9-%E4%BA%8C%E6%89%8B%E5%B8%82%E9%9B%86%E8%88%87%E9%84%B0%E9%87%8C%E6%B4%BB%E5%8B%95/id6798766730?uo=4" class="app-card" target="_blank">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/25/7b/6d257b1c-ce37-393b-313e-b5fa85abe045/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="社宅好物｜二手市集與鄰里活動" class="app-card-icon">
+<div class="app-card-body">
+<div class="app-card-text">
+<h3>社宅好物｜二手市集與鄰里活動</h3>
+<p>社宅二手交易平台，專為社會住宅住戶打造的社區面交與活動資訊 App。</p>
+</div>
+<span class="article-card-readmore">App Store →</span>
+</div>
+</a>
+
 <a href="https://apps.apple.com/tw/app/shelfcal/id6762213586?uo=4" class="app-card" target="_blank">
 <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/aa/82/05aa826f-7b67-0439-c725-9faba3d35f40/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg" alt="ShelfCal" class="app-card-icon">
 <div class="app-card-body">
@@ -191,17 +202,6 @@ iOS 工程師，擅長 Swift・UIKit・SwiftUI。<br>目前任職於租車公司
 <div class="app-card-text">
 <h3>立法院大小事</h3>
 <p>立法院大小事，是一款專為關心公共議題、國會動態與法案資訊的使用者打造的資訊工具。</p>
-</div>
-<span class="article-card-readmore">App Store →</span>
-</div>
-</a>
-
-<a href="https://apps.apple.com/tw/app/daily-quotes-mindful-living/id6752937052?uo=4" class="app-card" target="_blank">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/a8/37/70a8372a-d745-a352-7d68-f0bad7febd54/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="Daily Quotes – Mindful Living" class="app-card-icon">
-<div class="app-card-body">
-<div class="app-card-text">
-<h3>Daily Quotes – Mindful Living</h3>
-<p>Stay inspired every day with Daily Quotes.</p>
 </div>
 <span class="article-card-readmore">App Store →</span>
 </div>
