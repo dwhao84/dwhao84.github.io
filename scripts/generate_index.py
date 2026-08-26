@@ -5,12 +5,16 @@
 
 import json
 import re
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from html import unescape
 
 MEDIUM_RSS = "https://medium.com/feed/@dwsamurai84_dev"
 APP_API = "https://developer-category-api.dawei84.com/api/dawei"
+APP_API_FALLBACK = (
+    "https://app-store-developer-catalog-api.dwsamurai84.workers.dev/api/dawei"
+)
 MAX_ARTICLES = 10
 MAX_APPS = 3
 
@@ -78,18 +82,27 @@ def format_date(pub_date):
 
 
 def fetch_top_apps():
-    req = urllib.request.Request(
-        APP_API,
-        headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"},
-    )
-    with urllib.request.urlopen(req) as resp:
-        data = json.loads(resp.read())
+    try:
+        data = fetch_app_data(APP_API)
+    except urllib.error.HTTPError as error:
+        if error.code != 403:
+            raise
+        data = fetch_app_data(APP_API_FALLBACK)
     apps = data["data"]
     apps.sort(
         key=lambda x: int(m.group(1)) if (m := re.search(r"/id(\d+)", x.get("trackViewUrl", ""))) else 0,
         reverse=True,
     )
     return apps[:MAX_APPS]
+
+
+def fetch_app_data(url):
+    req = urllib.request.Request(
+        url,
+        headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"},
+    )
+    with urllib.request.urlopen(req) as resp:
+        return json.loads(resp.read())
 
 
 def generate_markdown(articles, apps):
