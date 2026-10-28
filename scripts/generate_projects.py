@@ -3,15 +3,8 @@
 用法: python scripts/generate_projects.py
 """
 
-import json
 import re
-import urllib.error
-import urllib.request
-
-API_URL = "https://developer-category-api.dawei84.com/api/dawei"
-API_URL_FALLBACK = (
-    "https://app-store-developer-catalog-api.dwsamurai84.workers.dev/api/dawei"
-)
+from app_data import ROOT, atomic_write, load_apps, preserve_existing
 
 HEADER = """---
 title: 專案
@@ -24,22 +17,7 @@ description: 我的 iOS App 作品集 — 資料自動同步自 App Store
 
 
 def fetch_apps():
-    try:
-        data = fetch_app_data(API_URL)
-    except urllib.error.HTTPError as error:
-        if error.code != 403:
-            raise
-        data = fetch_app_data(API_URL_FALLBACK)
-    return data["data"]
-
-
-def fetch_app_data(url):
-    req = urllib.request.Request(
-        url,
-        headers={"Accept": "application/json", "User-Agent": "Mozilla/5.0"},
-    )
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read())
+    return load_apps()
 
 
 def format_price(price):
@@ -90,11 +68,13 @@ def generate_markdown(apps):
 
 
 def main():
+    output_path = ROOT / "docs/projects.md"
     apps = fetch_apps()
+    if apps is None:
+        preserve_existing(output_path, "project-card")
+        return
     md = generate_markdown(apps)
-    output_path = "docs/projects.md"
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(md)
+    atomic_write(output_path, md)
     print(f"已生成 {output_path}，共 {len(apps)} 個 App")
 
 
