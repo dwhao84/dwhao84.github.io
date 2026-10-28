@@ -41,7 +41,7 @@ jobs:
     - run: python scripts/generate_projects.py
 
     - run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git config user.name "dwhao84"
+        git config user.email "100706617+dwhao84@users.noreply.github.com"
         mkdocs build --strict
         mkdocs gh-deploy --force
